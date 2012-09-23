@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="woce"
+           fetch="git://github.com/woce/" />
+  <default revision="master"
+           remote="woce"
+           sync-j="4" />
+
+  <project name="LunaSysMgr" />
+  <project name="LunaSysMgr-binaries" />
+  <project name="woce-build" />
+  <project name="build-support" />
+  <project name="woce-be" />
+
+</manifest>

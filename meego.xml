@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gitorious"
+		 fetch="git://gitorious.org" />
+	 <default revision="master" remote="gitorious" />
+
+	 <project path="qemu-maemo/qemu" name="qemu-maemo/qemu" />
+	 <project path="qemu-maemo/gles-libs" name="qemu-maemo/gles-libs" />
+
+	 <project path="multimedia/gst-openmax" name="maemo-multimedia/gst-openmax" revision="maemo6" />
+	 <project path="multimedia/gst-dsp" name="maemo-multimedia/gst-dsp" />
+	 <project path="multimedia/gstreamer" name="maemo-multimedia/gstreamer" revision="maemo6" />
+	 <project path="multimedia/gst-plugins-base" name="maemo-multimedia/gst-plugins-base" revision="maemo6" />
+	 <project path="multimedia/gst-plugins-good" name="maemo-multimedia/gst-plugins-good" revision="maemo6" />
+	 <project path="multimedia/gst-plugins-bad" name="maemo-multimedia/gst-plugins-bad" revision="maemo6" />
+	 <project path="multimedia/dsp-tools" name="maemo-multimedia/dsp-tools" />
+	 <project path="multimedia/gst-nokia-videosrc" name="maemo-multimedia/gst-nokia-videosrc" />
+	 <project path="multimedia/pulseaudio" name="maemo-multimedia/pulseaudio" />
+	 <project path="multimedia/pulseaudio-modules-meego" name="maemo-multimedia/pulseaudio-modules-meego" />
+	 <project path="multimedia/ohm" name="maemo-multimedia/ohm" />
+	 <project path="multimedia/dres" name="maemo-multimedia/dres" />
+	 <project path="multimedia/prolog" name="maemo-multimedia/prolog" />
+	 <project path="multimedia/libresource" name="maemo-multimedia/libresource" />
+	 <project path="multimedia/trace" name="maemo-multimedia/trace" />
+	 <project path="multimedia/ohm-plugins-misc" name="maemo-multimedia/ohm-plugins-misc" />
+	 <project path="multimedia/orc" name="maemo-multimedia/orc" />
+	 <project path="multimedia/tone-generator" name="maemo-multimedia/tone-generator" />
+	 <!-- Uncomment if you want N900 rx51 camera drivers kernel tree, following Linus's tree. -->
+	 <!-- <project path="multimedia/omap3isp-rx51" name="maemo-multimedia/omap3isp-rx51" /> -->
+	 <project path="multimedia/milaatu" name="maemo-multimedia/milaatu" />
+	 <project path="multimedia/mfldv4l2camsrc" name="maemo-multimedia/mfldv4l2camsrc" />
+	 <project path="multimedia/gst-omapfb" name="maemo-multimedia/gst-omapfb" />
+	 <project path="multimedia/gst-asd" name="maemo-multimedia/gst-asd" />
+	 <project path="multimedia/libresourceqt" name="maemo-multimedia/libresourceqt" />
+	 <project path="multimedia/pulseaudio-policy-enforcement" name="maemo-multimedia/pulseaudio-policy-enforcement" />
+	 <project path="multimedia/libngf" name="maemo-multimedia/libngf" />
+	 <project path="multimedia/policy-settings-basic" name="maemo-multimedia/policy-settings-basic" />
+	 <project path="multimedia/ngfd" name="maemo-multimedia/ngfd" />
+	 <project path="multimedia/meego-gst-interfaces" name="maemo-multimedia/meego-gst-interfaces" />
+	 <project path="multimedia/xserver-policy-enforcement" name="maemo-multimedia/xserver-policy-enforcement" />
+	 <project path="multimedia/rygel" name="maemo-multimedia/rygel" />
+	 <project path="multimedia/policy-emu" name="maemo-multimedia/policy-emu" />
+	 <project path="multimedia/swi-prolog" name="maemo-multimedia/swi-prolog" />
+	 <project path="multimedia/gst-common" name="maemo-multimedia/gst-common" />
+	 <project path="multimedia/gst-av" name="maemo-multimedia/gst-av" />
+	 <project path="multimedia/libav" name="maemo-multimedia/libav" />
+	 <project path="multimedia/gst-xssim" name="maemo-multimedia/gst-xssim" />
+	 <project path="multimedia/libresourceqt-demo-player " name="maemo-multimedia/libresourceqt-demo-player " />
+	 <project path="multimedia/drummachine " name="maemo-multimedia/drummachine " />
+	 <project path="multimedia/ngf-ui-example " name="maemo-multimedia/ngf-ui-example " />
+
+	 <!-- A Unicode tag: '\xc2\xa0' causes issues with repo -->
+	 <!-- <project path="tracker/tracker" name="tracker/tracker" /> -->
+
+	 <project path="bluetooth/bluez-packaging" name="maemo-bluetooth/bluez-packaging" />
+	 <project path="bluetooth/obexd-packaging" name="maemo-bluetooth/obexd-packaging" />
+	 <project path="bluetooth/maemo-bluez-compat" name="maemo-bluetooth/maemo-bluez-compat" />
+	 <project path="bluetooth/osso-gwobex" name="maemo-bluetooth/osso-gwobex" />
+	 <project path="bluetooth/osso-obc" name="maemo-bluetooth/osso-obc" />
+	 <project path="bluetooth/openobex-packaging" name="maemo-bluetooth/openobex-packaging" />
+	 <project path="bluetooth/hcidump-packaging" name="maemo-bluetooth/hcidump-packaging" />
+
+	 <project path="cellular/libcmtspeechdata" name="meego-cellular/libcmtspeechdata" />
+	 <project path="cellular/blts-ofono" name="meego-cellular/blts-ofono" />
+	 <project path="cellular/telepathy-ring" name="meego-cellular/telepathy-ring" />
+	 <project path="cellular/ofono" name="meego-cellular/ofono" />
+	 <project path="cellular/ofono-qt" name="meego-cellular/ofono-qt" />
+	 <project path="cellular/matd" name="meego-cellular/matd" />
+	 <project path="cellular/smshistory" name="meego-cellular/smshistory" />
+	 <project path="cellular/phonet-utils" name="meego-cellular/phonet-utils" />
+	 <project path="cellular/ofono-tests" name="meego-cellular/ofono-tests" />
+
+	 <project path="platform-security/refhashutils" name="meego-platform-security/refhashutils" />
+	 <project path="platform-security/libcreds2" name="meego-platform-security/libcreds2" />
+	 <project path="platform-security/dpkg" name="meego-platform-security/dpkg" />
+	 <project path="platform-security/openssl1" name="meego-platform-security/openssl1" />
+	 <project path="platform-security/aegis-examples" name="meego-platform-security/aegis-examples" />
+	 <project path="platform-security/libcreds2-qt" name="meego-platform-security/libcreds2-qt" />
+	 <project path="platform-security/librestok" name="meego-platform-security/librestok" />
+	 <project path="platform-security/rpm" name="meego-platform-security/rpm" />
+	 <project path="platform-security/aegis-certman" name="meego-platform-security/aegis-certman" />
+	 <project path="platform-security/libsmack" name="meego-platform-security/libsmack" />
+	 <project path="platform-security/aegis-crypto" name="meego-platform-security/aegis-crypto" />
+	 <!-- Uncomment if you want this Linux kernel tree based on stable-2.26.35, with the MSSF kernel modules and patches -->
+	 <!-- <project path="platform-security/linux-mssf" name="meego-platform-security/linux-mssf" /> -->
+	 <project path="platform-security/mssf-demo" name="meego-platform-security/mssf-demo" />
+	 <project path="platform-security/mssf-crypto" name="meego-platform-security/mssf-crypto" />
+	 <project path="platform-security/libtee" name="meego-platform-security/libtee" />
+	 <project path="platform-security/mssf-certman" name="meego-platform-security/mssf-certman" />
+	 <project path="platform-security/libcreds3" name="meego-platform-security/libcreds3" />
+	 <project path="platform-security/mssf-qt" name="meego-platform-security/mssf-qt" />
+	 <project path="platform-security/smackutil" name="meego-platform-security/smackutil" />
+	 <project path="platform-security/manifest-schema" name="meego-platform-security/manifest-schema" />
+	 <project path="platform-security/aegis-builder" name="meego-platform-security/aegis-builder" />
+	 <!-- No Source tree -->
+	 <!-- <project path="platform-security/smackpolyport" name="meego-platform-security/smackpolyport" /> -->
+
+	 <project path="developer-tools/image-creator" name="meego-developer-tools/image-creator" />
+	 <project path="developer-tools/spectacle" name="meego-developer-tools/spectacle" />
+	 <project path="developer-tools/bootchart" name="meego-developer-tools/bootchart" />
+	 <project path="developer-tools/madde" name="meego-developer-tools/madde" />
+	 <project path="developer-tools/obs-project-config" name="meego-developer-tools/obs-project-config" />
+	 <project path="developer-tools/kickstarter" name="meego-developer-tools/kickstarter" />
+	 <project path="developer-tools/qt-creator" name="meego-developer-tools/qt-creator" />
+	 <project path="developer-tools/osc-plugins" name="meego-developer-tools/osc-plugins" />
+	 <project path="developer-tools/update-metadata" name="meego-developer-tools/update-metadata" />
+	 <project path="developer-tools/image-manager" name="meego-developer-tools/image-manager" />
+	 <project path="developer-tools/meego-simulator-xephyr" name="meego-developer-tools/meego-simulator-xephyr" />
+	 <project path="developer-tools/meego-simulator-launcher" name="meego-developer-tools/meego-simulator-launcher" />
+	 <project path="developer-tools/meego-emulator-qemugl-x86" name="meego-developer-tools/meego-emulator-qemugl-x86" />
+	 <project path="developer-tools/meego-emulator-libgl-x86" name="meego-developer-tools/meego-emulator-libgl-x86" />
+	 <project path="developer-tools/meego-emulator-virtiogl-x86" name="meego-developer-tools/meego-emulator-virtiogl-x86" />
+	 <project path="developer-tools/powertop" name="meego-developer-tools/powertop" />
+	 <project path="developer-tools/corewatcher" name="meego-developer-tools/corewatcher" />
+	 <project path="developer-tools/release-tools" name="meego-developer-tools/release-tools" />
+	 <project path="developer-tools/autospectacle" name="meego-developer-tools/autospectacle" />
+	 <project path="developer-tools/meego-packaging-tools" name="meego-developer-tools/meego-packaging-tools" />
+	 <project path="developer-tools/meego-compliance-tools" name="meego-developer-tools/meego-compliance-tools" />
+	 <project path="developer-tools/meego-sdk-update-target" name="meego-developer-tools/meego-sdk-update-target" />
+	 <project path="developer-tools/madde-configurations" name="meego-developer-tools/madde-configurations" />
+	 <project path="developer-tools/meego-sdk-qt-simulator-skin" name="meego-developer-tools/meego-sdk-qt-simulator-skin" />
+	 <project path="developer-tools/meego-sdk-installer-config" name="meego-developer-tools/meego-sdk-installer-config" />
+	 <project path="developer-tools/crashsplash" name="meego-developer-tools/crashsplash" />
+	 <project path="developer-tools/meego-sdk-qemu-skin" name="meego-developer-tools/meego-sdk-qemu-skin" />
+	 <project path="developer-tools/obs-light" name="meego-developer-tools/obs-light" />
+	 <project path="developer-tools/memuse" name="meego-developer-tools/memuse" />
+	 <!-- No source tree -->
+	 <!-- <project path="developer-tools/corewatcher-applet" name="meego-developer-tools/corewatcher-applet" /> -->
+
+	 <project path="handset-ux/libseaside" name="meego-handset-ux/libseaside" />
+	 <project path="handset-ux/meego-handset-dialer" name="meego-handset-ux/meego-handset-dialer" />
+	 <project path="handset-ux/meego-handset-mannequin" name="meego-handset-ux/meego-handset-mannequin" />
+	 <project path="handset-ux/meego-handset-people" name="meego-handset-ux/meego-handset-people" />
+	 <project path="handset-ux/meego-handset-photo" name="meego-handset-ux/meego-handset-photo" />
+	 <project path="handset-ux/meego-handset-sms" name="meego-handset-ux/meego-handset-sms" />
+	 <project path="handset-ux/meego-handset-statusindicators" name="meego-handset-ux/meego-handset-statusindicators" />
+	 <project path="handset-ux/meegotouchcp-connman" name="meego-handset-ux/meegotouchcp-connman" />
+	 <project path="handset-ux/meegotouch-theme-meego" name="meego-handset-ux/meegotouch-theme-meego" />
+	 <project path="handset-ux/contextkit-meego" name="meego-handset-ux/contextkit-meego" />
+	 <!-- No source tree -->
+	 <!-- <project path="handset-ux/buteo-syncui" name="meego-handset-ux/buteo-syncui" /> -->
+	 <project path="handset-ux/meego-handset-music" name="meego-handset-ux/meego-handset-music" />
+	 <project path="handset-ux/meegotouchcp-bluetooth" name="meego-handset-ux/meegotouchcp-bluetooth" />
+	 <project path="handset-ux/meego-handset-music-translations" name="meego-handset-ux/meego-handset-music-translations" />
+	 <project path="handset-ux/meego-handset-chat" name="meego-handset-ux/meego-handset-chat" />
+	 <project path="handset-ux/meego-handset-socialweb" name="meego-handset-ux/meego-handset-socialweb" />
+	 <project path="handset-ux/meegotouchcp-chat" name="meego-handset-ux/meegotouchcp-chat" />
+	 <project path="handset-ux/meegotouchcp-socialweb" name="meego-handset-ux/meegotouchcp-socialweb" />
+	 <project path="handset-ux/meego-handset-video" name="meego-handset-ux/meego-handset-video" />
+	 <project path="handset-ux/meego-handset-email" name="meego-handset-ux/meego-handset-email" />
+	 <project path="handset-ux/meegotouchcp-telephony" name="meego-handset-ux/meegotouchcp-telephony" />
+	 <project path="handset-ux/ofono-qt" name="meego-handset-ux/ofono-qt" />
+	 <project path="handset-ux/meego-handset-sms-translations" name="meego-handset-ux/meego-handset-sms-translations" />
+	 <project path="handset-ux/meego-handset-dialer-translations" name="meego-handset-ux/meego-handset-dialer-translations" />
+	 <project path="handset-ux/fennec-qt-translations" name="meego-handset-ux/fennec-qt-translations" />
+	 <project path="handset-ux/fennec-qt-branding-meego" name="meego-handset-ux/fennec-qt-branding-meego" />
+	 <project path="handset-ux/meego-handset-chat-translations" name="meego-handset-ux/meego-handset-chat-translations" />
+	 <project path="handset-ux/meegotouchcp-chat-translations" name="meego-handset-ux/meegotouchcp-chat-translations" />
+	 <project path="handset-ux/meego-handset-socialweb-translations" name="meego-handset-ux/meego-handset-socialweb-translations" />
+	 <project path="handset-ux/meegotouchcp-socialweb-translations" name="meego-handset-ux/meegotouchcp-socialweb-translations" />
+	 <project path="handset-ux/meego-handset-calendar" name="meego-handset-ux/meego-handset-calendar" />
+	 <project path="handset-ux/meego-handset-email-translations" name="meego-handset-ux/meego-handset-email-translations" />
+	 <project path="handset-ux/bluetooth-qt" name="meego-handset-ux/bluetooth-qt" />
+	 <project path="handset-ux/meegotouchcp-sync" name="meego-handset-ux/meegotouchcp-sync" />
+	 <!-- No source tree -->
+	 <!-- <project path="handset-ux/meegotouchcp-connman-translations" name="meego-handset-ux/meegotouchcp-connman-translations" />
+	 <project path="handset-ux/meegotouchcp-telephony-translations" name="meego-handset-ux/meegotouchcp-telephony-translations" /> -->
+	 <project path="handset-ux/libconnman-qt" name="meego-handset-ux/libconnman-qt" />
+	 <!-- No source tree -->
+	 <!-- <project path="handset-ux/meego-handset-backup" name="meego-handset-ux/meego-handset-backup" /> -->
+	 <project path="handset-ux/meego-contacts-sync" name="meego-handset-ux/meego-contacts-sync" />
+
+	 <project path="netbook-ux/abrt-netbook" name="meego-netbook-ux/abrt-netbook" />
+	 <project path="netbook-ux/google-gadgets-meego" name="meego-netbook-ux/google-gadgets-meego" />
+	 <project path="netbook-ux/eom" name="meego-netbook-ux/eom" />
+	 <project path="netbook-ux/anerley" name="meego-netbook-ux/anerley" />
+	 <project path="netbook-ux/bisho" name="meego-netbook-ux/bisho" />
+	 <project path="netbook-ux/meego-panel-applications" name="meego-netbook-ux/meego-panel-applications" />
+	 <project path="netbook-ux/meego-panel-devices" name="meego-netbook-ux/meego-panel-devices" />
+	 <project path="netbook-ux/meego-panel-myzone" name="meego-netbook-ux/meego-panel-myzone" />
+	 <project path="netbook-ux/meego-panel-people" name="meego-netbook-ux/meego-panel-people" />
+	 <project path="netbook-ux/meego-panel-status" name="meego-netbook-ux/meego-panel-status" />
+	 <project path="netbook-ux/meego-panel-zones" name="meego-netbook-ux/meego-panel-zones" />
+	 <project path="netbook-ux/mutter-meego" name="meego-netbook-ux/mutter-meego" />
+	 <project path="netbook-ux/mutter" name="meego-netbook-ux/mutter" />
+	 <project path="netbook-ux/meego-panel-datetime" name="meego-netbook-ux/meego-panel-datetime" />
+	 <project path="netbook-ux/meego-jhbuild-netbook" name="meego-netbook-ux/meego-jhbuild-netbook" />
+	 <project path="netbook-ux/meego-gtk-engine" name="meego-netbook-ux/meego-gtk-engine" />
+	 <project path="netbook-ux/meego-menus" name="meego-netbook-ux/meego-menus" />
+	 <project path="netbook-ux/meego-icon-theme" name="meego-netbook-ux/meego-icon-theme" />
+	 <project path="netbook-ux/meego-sound-theme" name="meego-netbook-ux/meego-sound-theme" />
+	 <!-- No source tree -->
+	 <!-- <project path="netbook-ux/meego-user-skel" name="meego-netbook-ux/meego-user-skel" /> -->
+	 <project path="netbook-ux/meego-panel-networks" name="meego-netbook-ux/meego-panel-networks" />
+	 <project path="netbook-ux/gnome-settings-daemon" name="meego-netbook-ux/gnome-settings-daemon" />
+	 <project path="netbook-ux/meego-help" name="meego-netbook-ux/meego-help" />
+	 <project path="netbook-ux/gnome-control-center" name="meego-netbook-ux/gnome-control-center" />
+	 <project path="netbook-ux/meego-panel-pasteboard" name="meego-netbook-ux/meego-panel-pasteboard" />
+	 <project path="netbook-ux/meego-cursor-theme" name="meego-netbook-ux/meego-cursor-theme" />
+	 <project path="netbook-ux/meego-panel-web" name="meego-netbook-ux/meego-panel-web" />
+	 <project path="netbook-ux/gnome-screensaver" name="meego-netbook-ux/gnome-screensaver" />
+	 <project path="netbook-ux/bognor-regis" name="meego-netbook-ux/bognor-regis" />
+	 <project path="netbook-ux/meego-netbook-backgrounds" name="meego-netbook-ux/meego-netbook-backgrounds" />
+
+	 <project path="os-base/uxlaunch" name="meego-os-base/uxlaunch" />
+	 <project path="os-base/fastinit" name="meego-os-base/fastinit" />
+	 <project path="os-base/kernel-source" name="meego-os-base/kernel-source" />
+	 <project path="os-base/gconf-dbus" name="meego-os-base/gconf-dbus" />
+	 <project path="os-base/package-groups" name="meego-os-base/package-groups" />
+	 <project path="os-base/meego-rpm-config" name="meego-os-base/meego-rpm-config" />
+	 <project path="os-base/sreadahead" name="meego-os-base/sreadahead" />
+	 <project path="os-base/image-configurations" name="meego-os-base/image-configurations" />
+	 <project path="os-base/image-tools" name="meego-os-base/image-tools" />
+	 <project path="os-base/installer" name="meego-os-base/installer" />
+	 <project path="os-base/initrd-handset" name="meego-os-base/initrd-handset" />
+	 <project path="os-base/mkdevnodes" name="meego-os-base/mkdevnodes" />
+	 <project path="os-base/meego-coreutils" name="meego-os-base/meego-coreutils" />
+	 <project path="os-base/meego-gnupg2" name="meego-os-base/meego-gnupg2" />
+	 <project path="os-base/meego-findutils" name="meego-os-base/meego-findutils" />
+	 <project path="os-base/udev-rules" name="meego-os-base/udev-rules" />
+	 <project path="os-base/meego-tar" name="meego-os-base/meego-tar" />
+	 <project path="os-base/installer-shell" name="meego-os-base/installer-shell" />
+	 <project path="os-base/boardname" name="meego-os-base/boardname" />
+
+	 <project path="ivi-ux/ividesktop" name="meego-ivi-ux/ividesktop" />
+	 <project path="ivi-ux/ivihome" name="meego-ivi-ux/ivihome" />
+	 <project path="ivi-ux/meego-ux-ivi" name="meego-ivi-ux/meego-ux-ivi" />
+
+	 <project path="applications/meego-apps-client" name="meego-applications/meego-apps-client" />
+
+	 <project path="ux/meego-app-camera" name="meego-ux/meego-app-camera" />
+	 <project path="ux/meego-app-video" name="meego-ux/meego-app-video" />
+	 <project path="ux/meego-app-photos" name="meego-ux/meego-app-photos" />
+	 <project path="ux/meego-app-music" name="meego-ux/meego-app-music" />
+	 <project path="ux/meego-app-fingerpaint" name="meego-ux/meego-app-fingerpaint" />
+	 <project path="ux/meego-app-calculator" name="meego-ux/meego-app-calculator" />
+	 <project path="ux/meego-app-contacts" name="meego-ux/meego-app-contacts" />
+	 <project path="ux/meego-app-tasks" name="meego-ux/meego-app-tasks" />
+	 <project path="ux/meego-app-notes" name="meego-ux/meego-app-notes" />
+	 <project path="ux/meego-app-im" name="meego-ux/meego-app-im" />
+	 <project path="ux/mlite" name="meego-ux/mlite" />
+	 <project path="ux/meego-ux-daemon" name="meego-ux/meego-ux-daemon" />
+	 <project path="ux/meegolabs-ux-components" name="meego-ux/meegolabs-ux-components" />
+	 <project path="ux/meego-ux-components" name="meego-ux/meego-ux-components" />
+	 <project path="ux/meego-ux-appgrid" name="meego-ux/meego-ux-appgrid" />
+	 <project path="ux/meego-ux-panels" name="meego-ux/meego-ux-panels" />
+	 <project path="ux/meego-qml-launcher" name="meego-ux/meego-qml-launcher" />
+	 <project path="ux/meego-ux-settings" name="meego-ux/meego-ux-settings" />
+	 <project path="ux/meego-ux-theme" name="meego-ux/meego-ux-theme" />
+	 <project path="ux/meego-ux-content" name="meego-ux/meego-ux-content" />
+	 <project path="ux/meego-ux-content-socialweb" name="meego-ux/meego-ux-content-socialweb" />
+	 <project path="ux/meego-ux-content-email" name="meego-ux/meego-ux-content-email" />
+	 <project path="ux/meego-ux-sharing" name="meego-ux/meego-ux-sharing" />
+	 <project path="ux/meego-ux-sharing-email" name="meego-ux/meego-ux-sharing-email" />
+	 <project path="ux/meego-ux-sharing-socialweb" name="meego-ux/meego-ux-sharing-socialweb" />
+	 <project path="ux/meego-ux-media" name="meego-ux/meego-ux-media" />
+	 <project path="ux/meego-ux-media-lastfm" name="meego-ux/meego-ux-media-lastfm" />
+	 <project path="ux/meego-app-calendar" name="meego-ux/meego-app-calendar" />
+	 <project path="ux/orientation-contextkit-sensor" name="meego-ux/orientation-contextkit-sensor" />
+	 <project path="ux/meego-app-email" name="meego-ux/meego-app-email" />
+	 <project path="ux/meego-app-clocks" name="meego-ux/meego-app-clocks" />
+	 <project path="ux/meego-ux-settings-socialweb" name="meego-ux/meego-ux-settings-socialweb" />
+	 <project path="ux/meego-ux-translations" name="meego-ux/meego-ux-translations" />
+	 <project path="ux/meego-ux-alarms" name="meego-ux/meego-ux-alarms" />
+	 <project path="ux/meego-ux-mediafs" name="meego-ux/meego-ux-mediafs" />
+	 <project path="ux/meego-app-satk" name="meego-ux/meego-app-satk" />
+	 <project path="ux/meego-handset-pin" name="meego-ux/meego-handset-pin" />
+
+	 <project path="middleware/libsynthesis" name="meego-middleware/libsynthesis" />
+	 <project path="middleware/syncevolution" name="meego-middleware/syncevolution" />
+	 <project path="middleware/librest" name="meego-middleware/librest" />
+	 <project path="middleware/abrt" name="meego-middleware/abrt" />
+	 <project path="middleware/messagingframework" name="meego-middleware/messagingframework" />
+	 <project path="middleware/buteo-syncfw" name="meego-middleware/buteo-syncfw" />
+	 <project path="middleware/buteo-syncml" name="meego-middleware/buteo-syncml" />
+	 <project path="middleware/buteo-mtp" name="meego-middleware/buteo-mtp" />
+	 <project path="middleware/kcalcore" name="meego-middleware/kcalcore" />
+	 <project path="middleware/mkcal" name="meego-middleware/mkcal" />
+	 <project path="middleware/timed" name="meego-middleware/timed" />
+	 <project path="middleware/qmlog" name="meego-middleware/qmlog" />
+	 <project path="middleware/iodata" name="meego-middleware/iodata" />
+	 <project path="middleware/tzdata" name="meego-middleware/tzdata" />
+	 <project path="middleware/buteo-sync-plugins" name="meego-middleware/buteo-sync-plugins" />
+	 <project path="middleware/marmazon" name="meego-middleware/marmazon" />
+	 <project path="middleware/libmeegochat" name="meego-middleware/libmeegochat" />
+	 <project path="middleware/sensorfw" name="meego-middleware/sensorfw" />
+	 <project path="middleware/dsme" name="meego-middleware/dsme" />
+	 <project path="middleware/libdsme" name="meego-middleware/libdsme" />
+	 <project path="middleware/libiphb" name="meego-middleware/libiphb" />
+	 <project path="middleware/pulseaudio" name="meego-middleware/pulseaudio" revision="wsiv_swdev-meego" />
+	 <project path="middleware/pulseaudio-modules-mfld" name="meego-middleware/pulseaudio-modules-mfld" revision="wsiv_swdev-integ" />
+	 <project path="middleware/qmsystem" name="meego-middleware/qmsystem" />
+	 <project path="middleware/usb_moded" name="meego-middleware/usb_moded" />
+	 <project path="middleware/mce" name="meego-middleware/mce" />
+	 <!-- No source tree -->
+	 <!-- <project path="middleware/branta-backup" name="meego-middleware/branta-backup" /> -->
+	 <project path="middleware/libcmtspeech-ifx" name="meego-middleware/libcmtspeech-ifx" />
+	 <!-- No source tree -->
+	 <!-- <project path="middleware/qtmobility-sensors-backend" name="meego-middleware/qtmobility-sensors-backend" /> -->
+	 <project path="middleware/mce-dev" name="meego-middleware/mce-dev" />
+	 <project path="middleware/monitor-call-audio-setting-mid" name="meego-middleware/monitor-call-audio-setting-mid" revision="meego-mirror" />
+	 <project path="middleware/profiled" name="meego-middleware/profiled" />
+	 <project path="middleware/profile-qt" name="meego-middleware/profile-qt" />
+	 <project path="middleware/pulseaudio-settings-mfld" name="meego-middleware/pulseaudio-settings-mfld" />
+	 <project path="middleware/messagingframework-mms" name="meego-middleware/messagingframework-mms" />
+	 <!-- No source tree -->
+	 <!-- <project path="middleware/mmsd" name="meego-middleware/mmsd" /> -->
+	 <project path="middleware/libsocialweb-qt" name="meego-middleware/libsocialweb-qt" />
+	 <project path="middleware/qt-folks" name="meego-middleware/qt-folks" />
+	 <project path="middleware/pulseaudio-meego-utils" name="meego-middleware/pulseaudio-meego-utils" />
+	 <project path="middleware/libsocialweb-qml" name="meego-middleware/libsocialweb-qml" />
+	 <project path="middleware/pulseaudio-parameter-module" name="meego-middleware/pulseaudio-parameter-module" />
+	 <project path="middleware/qtcontacts-eds" name="meego-middleware/qtcontacts-eds" />
+	 <project path="middleware/kcal-eds" name="meego-middleware/kcal-eds" />
+	 <!-- No source tree -->
+	 <!-- <project path="middleware/gst-plugins-teletext" name="meego-middleware/gst-plugins-teletext" /> -->
+	 <!-- <project path="middleware/qt-mobility-mediaservice-dbus" name="meego-middleware/qt-mobility-mediaservice-dbus" /> -->
+	 <project path="middleware/mutter-meego-tv" name="meego-middleware/mutter-meego-tv" />
+
+	 <project path="device-adaptation/n900_libmlocknice" name="meego-device-adaptation/n900_libmlocknice" />
+	 <project path="device-adaptation/n900_nokia-n900-configs" name="meego-device-adaptation/n900_nokia-n900-configs" />
+	 <project path="device-adaptation/n900_nokia-n900-rescue-initrd" name="meego-device-adaptation/n900_nokia-n900-rescue-initrd" />
+	 <project path="device-adaptation/n900_nokia-usb-networking" name="meego-device-adaptation/n900_nokia-usb-networking" />
+	 <project path="device-adaptation/n900_udev-rules-nokia-n900" name="meego-device-adaptation/n900_udev-rules-nokia-n900" />
+	 <project path="device-adaptation/n900_i2c-tools" name="meego-device-adaptation/n900_i2c-tools" />
+	 <!-- No source tree -->
+	 <!-- <project path="device-adaptation/n900_libdsme" name="meego-device-adaptation/n900_libdsme" /> -->
+	 <project path="device-adaptation/n900_fb_text2screen" name="meego-device-adaptation/n900_fb_text2screen" />
+	 <project path="device-adaptation/n900_pulseaudio-settings-n900" name="meego-device-adaptation/n900_pulseaudio-settings-n900" />
+	 <project path="device-adaptation/n900_kernel" name="meego-device-adaptation/n900_kernel" />
+	 <project path="device-adaptation/n900_meego-pinquery" name="meego-device-adaptation/n900_meego-pinquery" />
+	 <project path="device-adaptation/n900_libbme" name="meego-device-adaptation/n900_libbme" />
+
+	 <project path="infrastructure-tools/boss" name="meego-infrastructure-tools/boss" />
+	 <project path="infrastructure-tools/imger" name="meego-infrastructure-tools/imger" />
+	 <project path="infrastructure-tools/air" name="meego-infrastructure-tools/air" />
+	 <project path="infrastructure-tools/ruote-amqp-pyclient" name="meego-infrastructure-tools/ruote-amqp-pyclient" />
+	 <project path="infrastructure-tools/boss-participant-bugzilla" name="meego-infrastructure-tools/boss-participant-bugzilla" />
+	 <project path="infrastructure-tools/boss-participant-notify" name="meego-infrastructure-tools/boss-participant-notify" />
+	 <project path="infrastructure-tools/boss-participant-ots" name="meego-infrastructure-tools/boss-participant-ots" />
+	 <project path="infrastructure-tools/boss-performance-test" name="meego-infrastructure-tools/boss-performance-test" />
+	 <project path="infrastructure-tools/boss-participant-getchangelog" name="meego-infrastructure-tools/boss-participant-getchangelog" />
+	 <project path="infrastructure-tools/boss-participant-obsticket" name="meego-infrastructure-tools/boss-participant-obsticket" />
+	 <project path="infrastructure-tools/boss-launcher-robogrator" name="meego-infrastructure-tools/boss-launcher-robogrator" />
+	 <!-- No source tree yet -->
+	 <!-- <project path="infrastructure-tools/dcp" name="meego-infrastructure-tools/dcp" /> -->
+	 <project path="infrastructure-tools/boss-participant-defineimage" name="meego-infrastructure-tools/boss-participant-defineimage" />
+	 <project path="infrastructure-tools/boss-participant-getbuildlog" name="meego-infrastructure-tools/boss-participant-getbuildlog" />
+	 <project path="infrastructure-tools/boss-participant-repomaker" name="meego-infrastructure-tools/boss-participant-repomaker" />
+	 <project path="infrastructure-tools/python-buildservice" name="meego-infrastructure-tools/python-buildservice" />
+	 <project path="infrastructure-tools/boss-participant-requests" name="meego-infrastructure-tools/boss-participant-requests" />
+	 <project path="infrastructure-tools/boss-nightly-imgs" name="meego-infrastructure-tools/boss-nightly-imgs" />
+	 <project path="infrastructure-tools/revs" name="meego-infrastructure-tools/revs" />
+	 <!-- No source tree yet -->
+	 <!-- <project path="infrastructure-tools/obs-metrics" name="meego-infrastructure-tools/obs-metrics" /> -->
+	 <project path="infrastructure-tools/boss-participant-rsync" name="meego-infrastructure-tools/boss-participant-rsync" />
+	 <project path="infrastructure-tools/boss-skynet" name="meego-infrastructure-tools/boss-skynet" />
+	 <project path="infrastructure-tools/boss-python-skynet" name="meego-infrastructure-tools/boss-python-skynet" />
+	 <project path="infrastructure-tools/boss-participant-build-status" name="meego-infrastructure-tools/boss-participant-build-status" />
+	 <project path="infrastructure-tools/boss-participant-obsevent" name="meego-infrastructure-tools/boss-participant-obsevent" />
+	 <project path="infrastructure-tools/boss-participant-image-dispatcher" name="meego-infrastructure-tools/boss-participant-image-dispatcher" />
+	 <project path="infrastructure-tools/boss-viewer" name="meego-infrastructure-tools/boss-viewer" />
+	 <project path="infrastructure-tools/boss-participant-prechecks" name="meego-infrastructure-tools/boss-participant-prechecks" />
+	 <project path="infrastructure-tools/boss-skynet-test" name="meego-infrastructure-tools/boss-skynet-test" />
+	 <project path="infrastructure-tools/boss-participant-resolverequest" name="meego-infrastructure-tools/boss-participant-resolverequest" />
+	 <project path="infrastructure-tools/boss-standard-workflow" name="meego-infrastructure-tools/boss-standard-workflow" />
+	 <project path="infrastructure-tools/python-bugzilla-rest" name="meego-infrastructure-tools/python-bugzilla-rest" />
+	 <project path="infrastructure-tools/precheck-tests" name="meego-infrastructure-tools/precheck-tests" />
+
+	 <project path="meegotouch/libmeegotouch" name="meegotouch/libmeegotouch" />
+	 <project path="meegotouch/meegotouch-theme" name="meegotouch/meegotouch-theme" />
+	 <project path="meegotouch/meegotouch-compositor" name="meegotouch/meegotouch-compositor" />
+	 <project path="meegotouch/meegotouch-home" name="meegotouch/meegotouch-home" />
+	 <project path="meegotouch/meegotouch-inputmethodframework" name="meegotouch/meegotouch-inputmethodframework" />
+	 <project path="meegotouch/meegotouch-inputmethodengine" name="meegotouch/meegotouch-inputmethodengine" />
+	 <project path="meegotouch/meegotouch-inputmethodkeyboard" name="meegotouch/meegotouch-inputmethodkeyboard" />
+	 <project path="meegotouch/meegotouch-feedback" name="meegotouch/meegotouch-feedback" />
+	 <project path="meegotouch/meegotouch-feedbackreactionmaps" name="meegotouch/meegotouch-feedbackreactionmaps" />
+	 <project path="meegotouch/meegotouch-systemui" name="meegotouch/meegotouch-systemui" />
+	 <project path="meegotouch/meegotouch-controlpanelapplets" name="meegotouch/meegotouch-controlpanelapplets" />
+	 <project path="meegotouch/meegotouch-controlpanelsoundsettingsapplet" name="meegotouch/meegotouch-controlpanelsoundsettingsapplet" />
+	 <project path="meegotouch/meegotouch-controlpanellanguageapplet" name="meegotouch/meegotouch-controlpanellanguageapplet" />
+	 <project path="meegotouch/meegotouch-controlpaneldatetimeapplet" name="meegotouch/meegotouch-controlpaneldatetimeapplet" />
+	 <project path="meegotouch/meegotouch-controlpanelregionformatapplet" name="meegotouch/meegotouch-controlpanelregionformatapplet" />
+	 <project path="meegotouch/meegotouch-systemuiextensions" name="meegotouch/meegotouch-systemuiextensions" />
+	 <project path="meegotouch/meegotouch-applifed" name="meegotouch/meegotouch-applifed" />
+	 <project path="meegotouch/meegotouch-applauncherd" name="meegotouch/meegotouch-applauncherd" />
+	 <project path="meegotouch/meegotouch-tests" name="meegotouch/meegotouch-tests" />
+	 <project path="meegotouch/meegotouch-qt-style" name="meegotouch/meegotouch-qt-style" />
+	 <project path="meegotouch/meegotouch-controlpanel" name="meegotouch/meegotouch-controlpanel" />
+	 <project path="meegotouch/meegotouch-controlpanelresetapplet" name="meegotouch/meegotouch-controlpanelresetapplet" />
+	 <project path="meegotouch/clean-device" name="meegotouch/clean-device" />
+	 <project path="meegotouch/meegotouch-theme-graphics" name="meegotouch/meegotouch-theme-graphics" />
+	 <project path="meegotouch/libmlocale" name="meegotouch/libmlocale" />
+
+	 <!-- Do we need the Web Infrastructure git trees? -->
+
+	 <project path="quality-assurance/hat-control" name="meego-quality-assurance/hat-control" />
+	 <project path="quality-assurance/scripts-and-utils" name="meego-quality-assurance/scripts-and-utils" />
+	 <project path="quality-assurance/ots" name="meego-quality-assurance/ots" />
+	 <project path="quality-assurance/testplanner" name="meego-quality-assurance/testplanner" />
+	 <project path="quality-assurance/testrunner" name="meego-quality-assurance/testrunner" />
+	 <project path="quality-assurance/testrunner-lite" name="meego-quality-assurance/testrunner-lite" />
+	 <project path="quality-assurance/test-definition" name="meego-quality-assurance/test-definition" />
+	 <project path="quality-assurance/enables-automated-testing" name="meego-quality-assurance/enables-automated-testing" />
+	 <project path="quality-assurance/min" name="meego-quality-assurance/min" />
+	 <project path="quality-assurance/mcts" name="meego-quality-assurance/mcts" />
+	 <project path="quality-assurance/mcts-coverage" name="meego-quality-assurance/mcts-coverage" />
+	 <project path="quality-assurance/meego-testing-hudson-plugin" name="meego-quality-assurance/meego-testing-hudson-plugin" />
+	 <project path="quality-assurance/mnts" name="meego-quality-assurance/mnts" />
+	 <project path="quality-assurance/handset-ux-tests" name="meego-quality-assurance/handset-ux-tests" />
+	 <project path="quality-assurance/qa-reports" name="meego-quality-assurance/qa-reports" />
+	 <project path="quality-assurance/meego-ai-serviceos" name="meego-quality-assurance/meego-ai-serviceos" />
+	 <project path="quality-assurance/rich-core" name="meego-quality-assurance/rich-core" />
+	 <project path="quality-assurance/crash-reporter" name="meego-quality-assurance/crash-reporter" />
+	 <project path="quality-assurance/crash-reporter-settings-public" name="meego-quality-assurance/crash-reporter-settings-public" />
+	 <project path="quality-assurance/libcqpid" name="meego-quality-assurance/libcqpid" />
+	 <project path="quality-assurance/meego-sdk-tests" name="meego-quality-assurance/meego-sdk-tests" />
+	 <project path="quality-assurance/meego-ai" name="meego-quality-assurance/meego-ai" />
+	 <project path="quality-assurance/meego-ai-flasher" name="meego-quality-assurance/meego-ai-flasher" />
+	 <!-- No source tree yet -->
+	 <!-- <project path="quality-assurance/handset-hourly-automated-tests" name="meego-quality-assurance/handset-hourly-automated-tests" /> -->
+	 <project path="quality-assurance/aspectc-qt-examples" name="meego-quality-assurance/aspectc-qt-examples" />
+	 <project path="quality-assurance/qa-dashboard" name="meego-quality-assurance/qa-dashboard" />
+	 <project path="quality-assurance/crash-reports" name="meego-quality-assurance/crash-reports" />
+	 <project path="quality-assurance/video-perf" name="meego-quality-assurance/video-perf" />
+	 <project path="quality-assurance/app-mon" name="meego-quality-assurance/app-mon" />
+	 <project path="quality-assurance/env-collector" name="meego-quality-assurance/env-collector" />
+	 <project path="quality-assurance/corelysis" name="meego-quality-assurance/corelysis" />
+	 <project path="quality-assurance/auto-ux-testlib" name="meego-quality-assurance/auto-ux-testlib" />
+	 <project path="quality-assurance/testkit-lite" name="meego-quality-assurance/testkit-lite" />
+	 <project path="quality-assurance/testkit-manager" name="meego-quality-assurance/testkit-manager" />
+	 <project path="quality-assurance/mits" name="meego-quality-assurance/mits" />
+	 <project path="quality-assurance/sys-mon" name="meego-quality-assurance/sys-mon" />
+	 <project path="quality-assurance/mem-eater" name="meego-quality-assurance/mem-eater" />
+	 <project path="quality-assurance/power-diablo" name="meego-quality-assurance/power-diablo" />
+	 <project path="quality-assurance/timed-launcher" name="meego-quality-assurance/timed-launcher" />
+	 <project path="quality-assurance/cleanpowerc" name="meego-quality-assurance/cleanpowerc" />
+
+	 <project path="sharing-framework/webupload-engine" name="meego-sharing-framework/webupload-engine" />
+	 <project path="sharing-framework/share-ui" name="meego-sharing-framework/share-ui" />
+	 <project path="sharing-framework/transfer-ui" name="meego-sharing-framework/transfer-ui" />
+	 <project path="sharing-framework/qml-share-enablers" name="meego-sharing-framework/qml-share-enablers" />
+
+	 <project path="browser/meego-app-browser" name="meego-browser/meego-app-browser" />
+	 <project path="browser/meego-browser-webkit" name="meego-browser/meego-browser-webkit" />
+	 <project path="browser/meego-browser-ffmpeg" name="meego-browser/meego-browser-ffmpeg" />
+	 <project path="browser/meego-browser-utils" name="meego-browser/meego-browser-utils" />
+</manifest>
