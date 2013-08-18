@@ -22,7 +22,7 @@
            sync-j="4" />
 
   <project name="bitbake" />
-  <project name="eclipsetools" />
+  <project name="eclipsetools" path="tools/eclipsetools" />
   <project name="openembedded/meta-oe" path="meta-oe" remote="github" />
   <project name="openembedded/oe-core" path="oe-core" remote="github" />
   <project name="openembedded/openembedded" path="openembedded" remote="github" />
@@ -84,7 +84,8 @@
   <project name="openpandora/meta-openpandora" path="meta-openpandora" remote="github" />
   <project name="openpandora/meta-openpandora-vendor" path="meta-openpandora-vendor" remote="github" />
   <project name="Angstrom-distribution/meta-angstrom" path="meta-angstrom" remote="github" />
-  <project name="Angstrom-distribution/narcissus" path="narcissus" remote="github" />
+  <project name="Angstrom-distribution/narcissus" path="tools/narcissus" remote="github" />
+  <project name="Angstrom-distribution/setup-scripts" path="tools/setup-scripts" remote="github" />
   <project name="Guacamayo/meta-guacamayo" path="meta-guacamayo" remote="github" />
   <project name="woglinde/meta-java" path="meta-java" remote="github" />
   <!--<project name="woglinde/meta-tegra" path="meta-tegra" remote="github" />-->

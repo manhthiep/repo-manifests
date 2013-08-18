@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="git://github.com/" />
+  <default revision="master"
+           remote="github"
+           sync-j="4" />
+
+  <project name="raspberrypi/firmware" />
+  <project name="raspberrypi/tools" />
+  <project name="raspberrypi/userland" />
+  
+  <project name="arduino/Arduino" />
+
+  <project name="Hexxeh/rpi-update" />
+  <project name="Hexxeh/rpi-firmware" />
+
+  <project name="koush/Superuser" />
+
+  <project name="omegavesko/SimpleADBBackup" /> 
+</manifest>
