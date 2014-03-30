@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://git.openwrt.org/" name="openwrt"/>
+  <default remote="openwrt" revision="master" sync-j="4"/>
+  <project name="openwrt"/>
+  <project name="packages"/>
+  <project name="12.09/openwrt" path="attitude_adjustment/openwrt"/>
+  <project name="12.09/packages" path="attitude_adjustment/packages"/>
+</manifest>

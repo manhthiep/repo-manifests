@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://gitorious.org/" name="gitorious"/>
+  <default remote="gitorious" revision="master" sync-j="4"/>
+  <project name="libreoffice/core"/>
+  <project name="libreoffice/translations"/>
+  <project name="libreoffice/help"/>
+  <project name="libreoffice/dictionaries"/>
+  <project name="libreoffice/binfilter"/>
+</manifest>

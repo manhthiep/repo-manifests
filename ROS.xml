@@ -76,7 +76,7 @@
   <project name="rosjava/android_core" />
   
   <project name="ros-android/android_camera_driver" />
-  <project name="ros-android/android_sensors_driver" />
+  <project name="ros-android/android_sensors_driver" revision="groovy-devel" />
   <project name="ros-android/android_app_manager" />
   <project name="ros-android/android_robot_monitor" />
   <project name="ros-android/android_teleop" />
@@ -90,35 +90,35 @@
   <project name="ros-android-pr2/pan_tilt" />
   <project name="ros-android-pr2/pr2_joint_teleop" />
   
-  <project name="ros-controls/ros_control" />
-  <project name="ros-controls/ros_controllers" />
-  <project name="ros-controls/control_msgs" />
-  <project name="ros-controls/control_toolbox" />
-  <project name="ros-controls/realtime_tools" />
+  <project name="ros-controls/ros_control" revision="groovy-devel" />
+  <project name="ros-controls/ros_controllers" revision="groovy-devel" />
+  <project name="ros-controls/control_msgs" revision="groovy-devel" />
+  <project name="ros-controls/control_toolbox" revision="groovy-devel" />
+  <project name="ros-controls/realtime_tools" revision="groovy-devel" />
   
-  <project name="ros-drivers/driver_common" />
-  <project name="ros-drivers/rosserial" />
+  <project name="ros-drivers/driver_common" revision="groovy-devel" />
+  <project name="ros-drivers/rosserial" revision="groovy-devel" />
   <project name="ros-drivers/rosserial-experimental" />
-  <project name="ros-drivers/openni_camera" />
-  <project name="ros-drivers/openni_launch" />
+  <project name="ros-drivers/openni_camera" revision="groovy-devel" />
+  <project name="ros-drivers/openni_launch" revision="groovy-devel" />
   <project name="ros-drivers/openni_tracker" />
   <project name="ros-drivers/openni2_camera" />
   <project name="ros-drivers/openni2_launch" />
   <project name="ros-drivers/openni2_tracker" />
   <project name="ros-drivers/nmea_navsat_driver" />
   <project name="ros-drivers/nmea_msgs" />
-  <project name="ros-drivers/nmea_gps_driver" />
-  <project name="ros-drivers/gpsd_client" />
+  <project name="ros-drivers/nmea_gps_driver" revision="groovy-devel" />
+  <project name="ros-drivers/gpsd_client" revision="groovy-devel" />
   <project name="ros-drivers/audio_common" />
-  <project name="ros-drivers/rgbd_launch" />
+  <project name="ros-drivers/rgbd_launch" revision="hydro-devel" />
   <project name="ros-drivers/velodyne" />
-  <project name="ros-drivers/reenect_stack" />
+  <project name="ros-drivers/freenect_stack" />
   <project name="ros-drivers/joystick_drivers" />
   <project name="ros-drivers/joystick_drivers_tutorials" />
-  <project name="ros-drivers/sicktoolbox" />
-  <project name="ros-drivers/sicktoolbox_wrapper" />
-  <project name="ros-drivers/microstrain_3dmgx2_imu" />
-  <project name="ros-drivers/hokuyo_node" />
+  <project name="ros-drivers/sicktoolbox" revision="groovy-devel" />
+  <project name="ros-drivers/sicktoolbox_wrapper" revision="groovy-devel" />
+  <project name="ros-drivers/microstrain_3dmgx2_imu" revision="groovy-devel" />
+  <project name="ros-drivers/hokuyo_node" revision="groovy-devel" />
   <project name="ros-drivers/wge100_driver" />
   <project name="ros-drivers/prosilica_driver" />
   <project name="ros-drivers/prosilica_gige_sdk" />
@@ -126,7 +126,7 @@
   <project name="ros-drivers/gscam" />
   <project name="ros-drivers/wifi_ddwrt" />
   <project name="ros-drivers/urg_c" />
-  <project name="ros-drivers/urg_node" />
+  <project name="ros-drivers/urg_node" revision="groovy-devel" />
   <project name="ros-drivers/korg_nanokontrol" />
   <!-- ROS GitBuildPackage -->
   <project name="ros-gbp/OculusSDK-release" />
@@ -229,7 +229,7 @@
   <project name="ros-gbp/laser_pipeline-release" />
   <project name="ros-gbp/laser_assembler-release" />
   <project name="ros-gbp/roslisp-release" />
-  <project name="ros-gbp/openni2_camera-release" />
+  <!--<project name="ros-gbp/openni2_camera-release" />-->
   <project name="ros-gbp/interactive_markers-release" />
   <project name="ros-gbp/octomap-release" />
   <project name="ros-gbp/console_bridge-release" />
@@ -326,16 +326,16 @@
   <project name="ros-geographic-info/unique_identifier" />
   <project name="ros-geographic-info/open_street_map" />
   
-  <project name="ros-interactive-manipulation/household_objects_database" />
-  <project name="ros-interactive-manipulation/pr2_surrogate" />
-  <project name="ros-interactive-manipulation/sql_database" />
-  <project name="ros-interactive-manipulation/pr2_object_manipulation" />
+  <project name="ros-interactive-manipulation/household_objects_database" revision="groovy-devel" />
+  <project name="ros-interactive-manipulation/pr2_surrogate" revision="groovy-devel" />
+  <project name="ros-interactive-manipulation/sql_database" revision="groovy-devel" />
+  <project name="ros-interactive-manipulation/pr2_object_manipulation" revision="groovy-devel" />
   <project name="ros-interactive-manipulation/velo_gripper" />
-  <project name="ros-interactive-manipulation/object_manipulation" />
-  <project name="ros-interactive-manipulation/manipulation_msgs" />
-  <project name="ros-interactive-manipulation/household_objects_database_msgs" />
+  <project name="ros-interactive-manipulation/object_manipulation" revision="groovy-devel" />
+  <project name="ros-interactive-manipulation/manipulation_msgs" revision="groovy-devel" />
+  <project name="ros-interactive-manipulation/household_objects_database_msgs" revision="groovy-devel" />
   <project name="ros-interactive-manipulation/ros-shell-utils" />
-  <project name="ros-interactive-manipulation/rviz" />
+  <project name="ros-interactive-manipulation/rviz" revision="groovy-devel" />
   
   <project name="ros-perception/image_common" />
   <project name="ros-perception/image_pipeline" />
@@ -376,7 +376,6 @@
   <project name="ros-planning/navigation_experimental" />
   <project name="ros-planning/3d_navigation" />
   <project name="ros-planning/geometric_shapes" />
-  <project name="ros-planning/shape_tools" />
   <project name="ros-planning/shape_tools" />
   <project name="ros-planning/map_store" />
   <project name="ros-planning/random_numbers" />
@@ -434,7 +433,7 @@
   <project name="ros-visualization/turtlebot_dashboard" />
   
   <!-- contributions -->
-  <project name="RobotWebTools/ros3djs" />
+  <project name="RobotWebTools/ros3djs" revision="devel" />
   <project name="youbot/youbot-ros-pkg" />
   <project name="stonier/win_ros" />
   <project name="ros-pkg-git/kinect" />
@@ -442,19 +441,19 @@
   <project name="jcrocholl/rostock" />
   <project name="bmwcarit/meta-ros" />
   <project name="cwru-robotics/cwru-ros-pkg" />
-  <project name="ipa320/cob_driver" />
+  <project name="ipa320/cob_driver" revision="groovy_dev" />
   <project name="baalexander/rosnodejs" />
   <project name="ktossell/libuvc_ros" />
   <project name="pixhawk/mavlink-ros-pkg" />
   <project name="hbrobotics/ros_arduino_bridge" />
-  <project name="RobotWebTools/roslibjs" />
+  <project name="RobotWebTools/roslibjs" revision="devel" />
   <project name="jonfink/multimaster-ros-pkg" />
   <project name="timn/ros-mongodb_log" />
   <project name="AutonomyLab/ardrone_autonomy" />
   <project name="wjwwood/ros-osx" />
   <project name="biomimetics/ros-linaro-distro" />
   <project name="ccny-ros-pkg/imu_tools" />
-  <project name="jkammerl/ros_http_video_streamer" />
+  <project name="jkammerl/ros_http_video_streamer" revision="groovy-devel" />
   <project name="fairlight1337/ros_service_examples" />
   <project name="cvg/px-ros-pkg" />
   <project name="astraw/ros_flydra" />
@@ -473,7 +472,7 @@
   <project name="makokal/usarsim-ros" />
   <project name="kincody/RosAsm" />
   <project name="9thSenseRobotics/rosAndroid" />
-  <project name="jameslistener/UMxROS" />
+  <!--<project name="jameslistener/UMxROS" />-->
   <project name="limhyon/libmv-ros" />
   <project name="mmyself/ros_ardrone" />
   <project name="pscholl/ros-rssimap" />
@@ -486,6 +485,5 @@
   <project name="OctoMap/octomap_ros" />
   <project name="jmaye/poslv_ros" />
   <project name="wjwwood/ros_parameter" />
-  <project name="" />
   
 </manifest>

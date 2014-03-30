@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://gitorious.org/" name="gitorious"/>
+  <default remote="gitorious" revision="master" sync-j="4"/>
+  <project name="qt/qtquickcontrols"/>
+  <project name="qt/qtwebkit"/>
+  <project name="qt/qtbase"/>
+  <project name="qt/qtdoc"/>
+  <project name="qt/qt"/>
+  <project name="qt/qtenginio"/>
+  <project name="qt/qtmultimedia"/>
+  <project name="qt/qtserialport"/>
+  <project name="qt/qtlocation"/>
+  <project name="qt/qtquick1"/>
+  <project name="qt/qtmodeling"/>
+  <project name="qt/qt5"/>
+  <project name="qt/qtdeclarative"/>
+  <project name="qt/qtconnectivity"/>
+  <project name="qt/qtpim"/>
+  <project name="qt/qtwinextras"/>
+  <project name="qt/qtwayland"/>
+  <project name="qt/qttools"/>
+  <project name="qt/qtscript"/>
+  <project name="qt/qtwebkit-examples"/>
+  <project name="qt/qtsystems"/>
+  <project name="qt/qtqa"/>
+  <project name="qt/qtxmlpatterns"/>
+  <project name="qt/qtjsbackend"/>
+  <project name="qt/qtimageformats"/>
+  <project name="qt/qtsensors"/>
+  <project name="qt/qtrepotools"/>
+  <project name="qt/qtgraphicaleffects"/>
+  <project name="qt/qtquickcontrols-tizen"/>
+  <project name="qt/qttranslations"/>
+  <project name="qt/qtx11extras"/>
+  <project name="qt/qt3d"/>
+  <project name="qt/qlalr"/>
+  <project name="qt/qtjsondb"/>
+  <project name="qt/qtmacextras"/>
+  <project name="qt/qtsvg"/>
+  <project name="qt/qtactiveqt"/>
+  <project name="qt/qtchooser"/>
+  <project name="qt/qtdocgallery"/>
+  <project name="qt/qthttp"/>
+  <project name="qt/qtftp"/>
+  <project name="qt/qtfeedback"/>
+  <project name="qt/qtstyleplugins"/>
+  <project name="qt/digia-qt"/>
+  <project name="qt/qtconcurrent-tmp-liangqi"/>
+  <project name="qt/qt3support"/>
+
+  <project name="qt-creator/qt3qt-creator"/>
+  <project name="qt-creator/binary-artifacts"/>
+
+  <project name="qt-labs/qtwebengine"/>
+  <project name="qt-labs/qbs"/>
+  <project name="qt-labs/chromium"/>
+  <project name="qt-labs/jom"/>
+  <project name="qt-labs/vstools"/>
+  <project name="qt-labs/messagingframework"/>
+  <project name="qt-labs/photoshop-qmlexporter"/>
+  <project name="qt-labs/qtscriptgenerator"/>
+  <project name="qt-labs/qsettings-refactor"/>
+  <project name="qt-labs/qt5-everywhere-demo"/>
+  <project name="qt-labs/qtest-qml"/>
+  <project name="qt-labs/qml-presentation-system"/>
+  <project name="qt-labs/qtaddonmimetype"/>
+  <project name="qt-labs/qt5-launch-demo"/>
+  <project name="qt-labs/devnet-examples"/>
+  <project name="qt-labs/mobile-demos"/>
+  <project name="qt-labs/meespot"/>
+  <project name="qt-labs/qmlogre"/>
+  <project name="qt-labs/simulator"/>
+  <project name="qt-labs/bm2"/>
+  <project name="qt-labs/qtgraphicaleffects"/>
+  <project name="qt-labs/remotecontrolwidget"/>
+  <project name="qt-labs/scxml"/>
+  <project name="qt-labs/devscripts"/>
+  <project name="qt-labs/simplegl"/>
+  <project name="qt-labs/qt-compositor"/>
+  <project name="qt-labs/qwebchannel"/>
+  <project name="qt-labs/qml-object-model"/>
+  <project name="qt-labs/qml1-shadersplugin"/>
+  <project name="qt-labs/coroutine"/>
+  <project name="qt-labs/scene-graph-demo"/>
+  <project name="qt-labs/qtcollator"/>
+  <project name="qt-labs/systemtests"/>
+  <project name="qt-labs/qt3d"/>
+  <project name="qt-labs/qtmodularization"/>
+  <project name="qt-labs/qt-autotester"/>
+  <project name="qt-labs/kineticscroller"/>
+  <project name="qt-labs/symbian-overlay"/>
+  <project name="qt-labs/qtscript-browser-env"/>
+  <project name="qt-labs/qml-toucharea"/>
+  <project name="qt-labs/graphics-dojo"/>
+  <project name="qt-labs/qmlcanvas"/>
+  <project name="qt-labs/opencl"/>
+  <project name="qt-labs/scene-graph"/>
+  <project name="qt-labs/maemo5-homescreen"/>
+  <project name="qt-labs/qml-gestures-examples"/>
+  <project name="qt-labs/qtuitest"/>
+  <project name="qt-labs/qml-gesturearea"/>
+  <project name="qt-labs/gimp-qmlexporter"/>
+  <project name="qt-labs/wolfenqt"/>
+  <project name="qt-labs/qtjambi-awtbridge"/>
+  <project name="qt-labs/devdays-windowsystem-server"/>
+  <project name="qt-labs/devdays-graphicssystem-plugin"/>
+  <project name="qt-labs/nacl"/>
+  <project name="qt-labs/segmentedbutton"/>
+  <project name="qt-labs/bm"/>
+  <project name="qt-labs/doxygen2qthelp"/>
+  <project name="qt-labs/itemviews-ng"/>
+  <project name="qt-labs/modelviewer"/>
+  <project name="qt-labs/qtspotify"/>
+  <project name="qt-labs/widgets-ng"/>
+  <project name="qt-labs/webscraps"/>
+  <project name="qt-labs/webclient"/>
+  <project name="qt-labs/qtestlib-tools"/>
+  <project name="qt-labs/qtscript-remote-debugging"/>
+  <project name="qt-labs/doctools"/>
+
+  <project name="qt-mobility/qt-mobility"/>
+  <project name="qt-mobility/contacts"/>
+
+  <project name="qt-in-use/qt-in-automotive"/>
+  <project name="qt-in-use/libqterminalmode"/>
+  <project name="qt-in-use/qterminalmodeclient"/>
+  <project name="qt-in-use/qt-in-mobile"/>
+  <project name="qt-in-use/qt-in-industrial-embedded"/>
+
+  <project name="qt-solutions/qt-solutions"/>
+
+  <project name="qtsdk/qtsdk"/>
+
+  <project name="qt/multipoint-touch"/>
+  <project name="qt/lighthouse"/>
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

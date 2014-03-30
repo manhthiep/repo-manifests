@@ -30,6 +30,7 @@
   <project name="joyent/node-ipd" />
   <project name="joyent/node-remote-tester-drone" />
   <project name="joyent/node-camp" />
+  
   <project name="rogerwang/node-webkit" />
   <project name="felixge/node-mysql" />
   <project name="felixge/node-formidable" />
@@ -188,5 +189,11 @@
   <project name="xk/node-threads-a-gogo" />
   <project name="superafroman/node-torrent" />
   <project name="mscdex/node-ftp" />
+  
+  <!-- socket.io -->
+  <project name="LearnBoost/socket.io" />
+  <project name="LearnBoost/socket.io-client" />
+  <project name="LearnBoost/socket.io-node" />
+  <project name="LearnBoost/socket.io-protocol" />
   
 </manifest>

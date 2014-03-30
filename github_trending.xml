@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github" fetch="git://github.com/" />
+  <default remote="github" revision="master" sync-j="4" />		   
+  <!-- Github Trending -->
+  <project name="feedbin/feedbin" />
+  <project name="feedbin/feedbin-api" />
+  <project name="feedbin/refresher" />
+  <project name="feedbin/polyptych" />
+  <project name="atmos/camo" />  
+  <project name="dotcloud/docker" />  
+  <project name="FredrikNoren/ungit" />  
+  <project name="wagerfield/parallax" />
+  <project name="twbs/bootstrap" />
+  <project name="martinblech/xmltodict" />
+  <project name="goldsmith/Wikipedia" />
+  <project name="mbostock/d3" />
+  <project name="rethinkdb/rethinkdb" />
+  <project name="meenie/8bit.js" />
+  <project name="stevestreza/Barista" />
+  <project name="google/gumbo-parser" />
+  <project name="thekarangoel/Projects" />
+  <project name="moment/moment" />
+  <project name="mozilla/brick" />
+  <project name="google/tracing-framework" />
+  <project name="adobe/brackets" />
+  <project name="libgit2/libgit2" />  
+</manifest>
