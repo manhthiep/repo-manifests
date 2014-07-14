@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="limetext/gopy"/>
+  <project name="limetext/lime"/>
+  <project name="limetext/limetext.github.io"/>
+  <project name="limetext/rubex"/>
+  <project name="limetext/termbox-go"/>
+</manifest>

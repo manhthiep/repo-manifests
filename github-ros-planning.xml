@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="ros-planning/3d_navigation" revision="hydro-devel"/>
+  <project name="ros-planning/geometric_shapes" revision="hydro-devel"/>
+  <project name="ros-planning/map_manager_app"/>
+  <project name="ros-planning/map_store" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_advanced" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_commander" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_core" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_docs" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_experimental"/>
+  <project name="ros-planning/moveit_ikfast"/>
+  <project name="ros-planning/moveit_metapackages"/>
+  <project name="ros-planning/moveit_msgs" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_planners" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_plugins" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_pr2" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_resources"/>
+  <project name="ros-planning/moveit_robots"/>
+  <project name="ros-planning/moveit_ros" revision="hydro-devel"/>
+  <project name="ros-planning/moveit_setup_assistant" revision="hydro-devel"/>
+  <project name="ros-planning/navigation" revision="hydro-devel"/>
+  <project name="ros-planning/navigation_experimental" revision="groovy-devel"/>
+  <project name="ros-planning/navigation_tutorials" revision="hydro-devel"/>
+  <project name="ros-planning/random_numbers"/>
+  <project name="ros-planning/shape_tools"/>
+  <project name="ros-planning/srdfdom"/>
+  <project name="ros-planning/warehouse_ros"/>
+</manifest>

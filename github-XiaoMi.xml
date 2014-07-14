@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="XiaoMi/chronos"/>
+  <project name="XiaoMi/jack"/>
+  <project name="XiaoMi/minos"/>
+  <project name="XiaoMi/rose"/>
+  <project name="XiaoMi/themis"/>
+  <project name="XiaoMi/xiaomi.github.com"/>
+</manifest>

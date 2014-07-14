@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+
+  <!-- core -->
+  <project name="owncloud/core"/>
+  <project name="owncloud/documentation"/>
+  <project name="owncloud/firstrunwizard"/>
+  <project name="owncloud/administration"/>
+  <project name="owncloud/www"/>
+  <project name="owncloud/3rdparty"/>
+  <project name="owncloud/promo"/>
+  <project name="owncloud/updater"/>
+  <project name="owncloud/web_hooks"/>
+  <project name="owncloud/example-files"/>
+  <project name="owncloud/themes"/>
+  <project name="owncloud/security-advisories"/>
+  <project name="owncloud/format-filter-server"/>
+  <project name="owncloud/design"/>
+
+  <!-- sync client -->
+  <project name="owncloud/android"/>
+  <project name="owncloud/android-library"/>
+  <project name="owncloud/mirall"/>
+  <project name="owncloud/notes-iOS-App"/>
+  <project name="owncloud/news-iOS-App"/>
+  <project name="owncloud/homebrew-owncloud"/>
+  <project name="owncloud/News-Qt-App"/>
+  <project name="owncloud/Notes-OSX-App"/>
+  <project name="owncloud/windows-phone"/>
+  <project name="owncloud/news-chrome-notifier"/>
+  <project name="owncloud/client"/>
+  <project name="owncloud/sync-qt"/>
+  <project name="owncloud/webos"/>
+
+  <!-- app -->
+  <project name="owncloud/activity"/>
+  <project name="owncloud/bookmarks"/>
+  <project name="owncloud/calendar"/>
+  <project name="owncloud/mail"/>
+  <project name="owncloud/gallery"/>
+  <project name="owncloud/mozilla_sync"/>
+  <project name="owncloud/music"/>
+  <project name="owncloud/notes"/>
+  <project name="owncloud/news"/>
+  <project name="owncloud/apps"/>
+  <project name="owncloud/contacts"/>
+  <project name="owncloud/documents"/>
+  <project name="owncloud/shorty"/>
+  <project name="owncloud/chat"/>
+  <project name="owncloud/search_lucene"/>
+  <project name="owncloud/user_cas"/>
+  <project name="owncloud/files_texteditor"/>
+  <project name="owncloud/files_pdfviewer"/>
+  <project name="owncloud/tasks"/>
+  <project name="owncloud/files_irods"/>
+  <project name="owncloud/maps"/>
+  <project name="owncloud/videos"/>
+
+</manifest>

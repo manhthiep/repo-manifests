@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="breach/breach_core"/>
+  <project name="breach/breach_front"/>
+  <project name="breach/exo_browser"/>
+  <project name="breach/gig.fs"/>
+  <project name="breach/mod_newtab"/>
+  <project name="breach/mod_stats"/>
+  <project name="breach/mod_strip"/>
+  <project name="breach/node" revision="exo_browser"/>
+  <project name="breach/releases"/>
+</manifest>

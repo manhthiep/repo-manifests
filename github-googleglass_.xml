@@ -2,14 +2,10 @@
 <manifest>
   <remote fetch="git://github.com/" name="github"/>
   <default remote="github" revision="master" sync-j="4"/>
-  <project name="googleglass/gdk-apidemo-sample"/>
-  <project name="googleglass/gdk-charades-sample"/>
-  <project name="googleglass/gdk-compass-sample"/>
-  <project name="googleglass/gdk-level-sample"/>
-  <project name="googleglass/gdk-stopwatch-sample"/>
-  <project name="googleglass/gdk-timer-sample"/>
-  <project name="googleglass/gdk-waveform-sample"/>
-  <project name="googleglass/mirror-catfacts-python"/>
+  <project name="googleglass/apk-compass-sample"/>
+  <project name="googleglass/apk-level-sample"/>
+  <project name="googleglass/apk-stopwatch-sample"/>
+  <project name="googleglass/apk-waveform-sample"/>
   <project name="googleglass/mirror-counter-sample-python"/>
   <project name="googleglass/mirror-quickstart-dotnet"/>
   <project name="googleglass/mirror-quickstart-go"/>

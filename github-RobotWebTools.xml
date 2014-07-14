@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="RobotWebTools/depthcloud_encoder" revision="develop"/>
+  <project name="RobotWebTools/interactive_marker_proxy" revision="develop"/>
+  <project name="RobotWebTools/mjpeg_server" revision="develop"/>
+  <project name="RobotWebTools/robotwebtools.github.com"/>
+  <project name="RobotWebTools/ros2djs" revision="develop"/>
+  <project name="RobotWebTools/ros3djs" revision="develop"/>
+  <project name="RobotWebTools/rosbridge_suite" revision="develop"/>
+  <project name="RobotWebTools/roslibjs" revision="develop"/>
+  <project name="RobotWebTools/roslibjs_integration_tests" revision="develop"/>
+  <project name="RobotWebTools/ros_web_video" revision="develop"/>
+  <project name="RobotWebTools/starter-template" revision="stable"/>
+  <project name="RobotWebTools/tf2_web_republisher" revision="develop"/>
+</manifest>

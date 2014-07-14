@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="Netflix/aegisthus"/>
+  <project name="Netflix/amazoncomponents"/>
+  <project name="Netflix/aminator" revision="testing"/>
+  <project name="Netflix/archaius"/>
+  <project name="Netflix/asgard"/>
+  <project name="Netflix/astyanax"/>
+  <project name="Netflix/aws-autoscaling"/>
+  <project name="Netflix/blitz4j"/>
+  <project name="Netflix/brutal"/>
+  <project name="Netflix/CassJMeter"/>
+  <project name="Netflix/Cloud-Prize"/>
+  <project name="Netflix/curator"/>
+  <project name="Netflix/denominator"/>
+  <project name="Netflix/edda"/>
+  <project name="Netflix/eureka"/>
+  <project name="Netflix/EVCache"/>
+  <project name="Netflix/exhibitor"/>
+  <project name="Netflix/feign"/>
+  <project name="Netflix/frigga"/>
+  <project name="Netflix/gcviz"/>
+  <project name="Netflix/genie"/>
+  <project name="Netflix/glisten"/>
+  <project name="Netflix/governator"/>
+  <project name="Netflix/gradle-template"/>
+  <project name="Netflix/Hystrix"/>
+  <project name="Netflix/ice"/>
+  <project name="Netflix/karyon"/>
+  <project name="Netflix/Lipstick"/>
+  <project name="Netflix/netflix-commons"/>
+  <project name="Netflix/netflix-graph"/>
+  <project name="Netflix/netflix.github.com"/>
+  <project name="Netflix/NfWebCrypto"/>
+  <project name="Netflix/PigPen"/>
+  <project name="Netflix/Priam"/>
+  <project name="Netflix/pytheas"/>
+  <project name="Netflix/recipes-rss"/>
+  <project name="Netflix/ribbon"/>
+  <project name="Netflix/RxJava"/>
+  <project name="Netflix/RxNetty"/>
+  <project name="Netflix/s3mper"/>
+  <project name="Netflix/security_monkey"/>
+  <project name="Netflix/servo"/>
+  <project name="Netflix/SimianArmy"/>
+  <project name="Netflix/staash"/>
+  <project name="Netflix/suro"/>
+  <project name="Netflix/Turbine"/>
+  <project name="Netflix/zeno"/>
+  <project name="Netflix/zuul"/>
+</manifest>

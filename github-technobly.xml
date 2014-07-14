@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="technobly/Adafruit-WS2801-Library"/>
+  <project name="technobly/AdafruitPN532_Library"/>
+  <project name="technobly/Adafruit_CharacterOLED"/>
+  <project name="technobly/Adafruit_SSD1306"/>
+  <project name="technobly/aJson"/>
+  <project name="technobly/Auto-Awexomer"/>
+  <project name="technobly/Clever"/>
+  <project name="technobly/cleverbot-api"/>
+  <project name="technobly/core"/>
+  <project name="technobly/core-common-lib"/>
+  <project name="technobly/core-communication-lib"/>
+  <project name="technobly/core-firmware"/>
+  <project name="technobly/deskbell"/>
+  <project name="technobly/docs"/>
+  <project name="technobly/eggtt"/>
+  <project name="technobly/hashtag-amy"/>
+  <project name="technobly/LilyPad_MP3_Player"/>
+  <project name="technobly/MonokaiArduinoTheme"/>
+  <project name="technobly/MonStar"/>
+  <project name="technobly/NeoPixel-KnightRider"/>
+  <project name="technobly/pebble-tinker"/>
+  <project name="technobly/prototype-documentation" revision="gh-pages"/>
+  <project name="technobly/Remote-RTTTL"/>
+  <project name="technobly/Remote-Spark"/>
+  <project name="technobly/Simple-Spark-Core-Controller"/>
+  <project name="technobly/Spark-Stepper"/>
+  <project name="technobly/SparkAPI-NodeJS"/>
+  <project name="technobly/SparkCore-FacebookLikesAlert"/>
+  <project name="technobly/SparkCore-Fritzing"/>
+  <project name="technobly/SparkCore-LiquidCrystal"/>
+  <project name="technobly/SparkCore-LiquidCrystalSPI"/>
+  <project name="technobly/SparkCore-MAX31855"/>
+  <project name="technobly/SparkCore-MotorShield-V1"/>
+  <project name="technobly/SparkCore-NeoPixel"/>
+  <project name="technobly/SparkCore-PN532_NFC"/>
+  <project name="technobly/SparkCore-RF24"/>
+  <project name="technobly/SparkCore-SD"/>
+  <project name="technobly/SparkCore-WebApp"/>
+  <project name="technobly/time_loop"/>
+  <project name="technobly/TinyWebServer"/>
+  <project name="technobly/Turntable-API"/>
+  <project name="technobly/turntablex"/>
+  <project name="technobly/voodoospark"/>
+</manifest>

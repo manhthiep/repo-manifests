@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="leaflabs/basic-hdl-template"/>
+  <project name="leaflabs/breathe"/>
+  <project name="leaflabs/buildroot-zynq"/>
+  <project name="leaflabs/hardware-lib"/>
+  <project name="leaflabs/hdl"/>
+  <project name="leaflabs/leaflabs-docs"/>
+  <project name="leaflabs/libmaple"/>
+  <project name="leaflabs/maple"/>
+  <project name="leaflabs/maple-bootloader"/>
+  <project name="leaflabs/maple-ide"/>
+  <project name="leaflabs/Maple-II"/>
+  <project name="leaflabs/maplehd"/>
+  <project name="leaflabs/maplemini"/>
+  <project name="leaflabs/maplenative"/>
+  <project name="leaflabs/oak"/>
+  <project name="leaflabs/projects"/>
+  <project name="leaflabs/uioctl"/>
+  <project name="leaflabs/Wiring"/>
+  <project name="leaflabs/www.leaflabs.com"/>
+  <project name="leaflabs/xmsgs-tools"/>
+</manifest>

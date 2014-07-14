@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="RoboHow/cram_3rdparty"/>
+  <project name="RoboHow/cram_bridge"/>
+  <project name="RoboHow/cram_core"/>
+  <project name="RoboHow/cram_graspstability"/>
+  <project name="RoboHow/cram_highlevel"/>
+  <project name="RoboHow/cram_physics"/>
+  <project name="RoboHow/cram_pr2"/>
+  <project name="RoboHow/cram_robohow_review_year2"/>
+  <project name="RoboHow/cram_seds"/>
+  <project name="RoboHow/knowrob"/>
+  <project name="RoboHow/knowrob_addons"/>
+  <project name="RoboHow/knowrob_gui"/>
+  <project name="RoboHow/pr2_sot_integration"/>
+  <project name="RoboHow/robohow_common_msgs"/>
+</manifest>

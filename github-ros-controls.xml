@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="ros-controls/control_msgs" revision="indigo-devel"/>
+  <project name="ros-controls/control_toolbox" revision="indigo-devel"/>
+  <project name="ros-controls/realtime_tools" revision="indigo-devel"/>
+  <project name="ros-controls/ros_control" revision="indigo-devel"/>
+  <project name="ros-controls/ros_controllers" revision="indigo-devel"/>
+</manifest>

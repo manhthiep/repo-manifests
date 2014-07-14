@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="libgit2/docurium"/>
+  <project name="libgit2/git2go"/>
+  <project name="libgit2/GitForDelphi"/>
+  <project name="libgit2/libgit2"/>
+  <project name="libgit2/libgit2-backends"/>
+  <project name="libgit2/libgit2.github.com"/>
+  <project name="libgit2/libgit2sharp" revision="vNext"/>
+  <project name="libgit2/luagit2"/>
+  <project name="libgit2/node-gitteh"/>
+  <project name="libgit2/objective-git"/>
+  <project name="libgit2/php-git" revision="develop"/>
+  <project name="libgit2/pygit2"/>
+  <project name="libgit2/rugged"/>
+  <project name="libgit2/TestEmptyRepository"/>
+  <project name="libgit2/TestGitRepository"/>
+</manifest>

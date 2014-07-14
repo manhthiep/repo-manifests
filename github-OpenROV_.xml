@@ -7,6 +7,5 @@
   <project name="OpenROV/openrov-hardware"/>
   <project name="OpenROV/openrov-image"/>
   <project name="OpenROV/openrov-software"/>
-  <project name="OpenROV/openrov-software-arduino"/>
   <project name="OpenROV/openrov-wiki"/>
 </manifest>

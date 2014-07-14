@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="scrapy/dirbot"/>
+  <project name="scrapy/gsoc2014-integration-tests"/>
+  <project name="scrapy/loginform"/>
+  <project name="scrapy/queuelib"/>
+  <project name="scrapy/scrapely"/>
+  <project name="scrapy/scrapy"/>
+  <project name="scrapy/scrapy.github.io"/>
+  <project name="scrapy/scrapyd"/>
+  <project name="scrapy/slybot"/>
+  <project name="scrapy/w3lib"/>
+</manifest>

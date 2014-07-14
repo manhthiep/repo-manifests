@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="ros/actionlib" revision="indigo-devel"/>
+  <project name="ros/angles"/>
+  <project name="ros/bond_core"/>
+  <project name="ros/catkin" revision="indigo-devel"/>
+  <project name="ros/catkin_tutorials"/>
+  <project name="ros/cheatsheet"/>
+  <project name="ros/class_loader" revision="indigo-devel"/>
+  <project name="ros/cmake_modules" revision="0.3-devel"/>
+  <project name="ros/common_msgs" revision="indigo-devel"/>
+  <project name="ros/common_tutorials" revision="hydro-devel"/>
+  <project name="ros/console_bridge"/>
+  <project name="ros/convex_decomposition"/>
+  <project name="ros/diagnostics" revision="hydro-devel"/>
+  <project name="ros/documentation"/>
+  <project name="ros/dynamic_reconfigure"/>
+  <project name="ros/eigen_stl_containers"/>
+  <project name="ros/executive_smach" revision="indigo-devel"/>
+  <project name="ros/filters" revision="hydro-devel"/>
+  <project name="ros/gencpp" revision="indigo-devel"/>
+  <project name="ros/genlisp" revision="groovy-devel"/>
+  <project name="ros/genmsg" revision="indigo-devel"/>
+  <project name="ros/genpy" revision="indigo-devel"/>
+  <project name="ros/genpybindings"/>
+  <project name="ros/gentypelibxml"/>
+  <project name="ros/geometry" revision="indigo-devel"/>
+  <project name="ros/geometry_experimental" revision="indigo-devel"/>
+  <project name="ros/geometry_tutorials" revision="hydro-devel"/>
+  <project name="ros/homebrew-deps"/>
+  <project name="ros/homebrew-fuerte"/>
+  <project name="ros/homebrew-groovy"/>
+  <project name="ros/homebrew-hydro"/>
+  <project name="ros/ivcon"/>
+  <project name="ros/langs"/>
+  <project name="ros/langs-dev"/>
+  <project name="ros/media_export" revision="indigo-devel"/>
+  <project name="ros/message_generation" revision="groovy-devel"/>
+  <project name="ros/message_runtime" revision="groovy-devel"/>
+  <project name="ros/metapackages" revision="indigo-devel"/>
+  <project name="ros/nodelet_core" revision="indigo-devel"/>
+  <project name="ros/pluginlib" revision="indigo-devel"/>
+  <project name="ros/robot_model" revision="indigo-devel"/>
+  <project name="ros/robot_state_publisher" revision="indigo-devel"/>
+  <project name="ros/ros" revision="indigo-devel"/>
+  <project name="ros/rosbag_migration_rule"/>
+  <project name="ros/rosconsole_bridge" revision="indigo-devel"/>
+  <project name="ros/roscpp_core" revision="indigo-devel"/>
+  <project name="ros/rosdistro"/>
+  <project name="ros/roslint"/>
+  <project name="ros/roslisp"/>
+  <project name="ros/roslisp_common"/>
+  <project name="ros/roslisp_repl"/>
+  <project name="ros/rospack" revision="indigo-devel"/>
+  <project name="ros/ros_comm" revision="indigo-devel"/>
+  <project name="ros/ros_comm_msgs" revision="indigo-devel"/>
+  <project name="ros/ros_message_user_examples"/>
+  <project name="ros/ros_realtime"/>
+  <project name="ros/ros_tutorials" revision="indigo-devel"/>
+  <project name="ros/std_msgs" revision="groovy-devel"/>
+  <project name="ros/swig-wx" revision="groovy-devel"/>
+  <project name="ros/test_jenkins_pull_request_integration"/>
+  <project name="ros/tf2_visualization"/>
+  <project name="ros/urdfdom"/>
+  <project name="ros/urdfdom_headers"/>
+  <project name="ros/urdf_tutorial"/>
+  <project name="ros/xacro" revision="indigo-devel"/>
+</manifest>

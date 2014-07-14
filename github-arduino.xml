@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="arduino/Adafruit-GFX-Library"/>
+  <project name="arduino/Adafruit-ST7735-Library"/>
+  <project name="arduino/appbundler" revision="arduino"/>
+  <project name="arduino/Arduino"/>
+  <project name="arduino/Arduino-stk500v2-bootloader"/>
+  <project name="arduino/arduino-usb-scanner"/>
+  <project name="arduino/astyle"/>
+  <project name="arduino/avrdude"/>
+  <project name="arduino/BtSerial"/>
+  <project name="arduino/ethernet-bootloader"/>
+  <project name="arduino/linino"/>
+  <project name="arduino/OpenOCD"/>
+  <project name="arduino/openwrt-packages-yun"/>
+  <project name="arduino/openwrt-yun"/>
+  <project name="arduino/RXTX"/>
+  <project name="arduino/Tests"/>
+  <project name="arduino/TFT"/>
+  <project name="arduino/TFTP-Bootloader"/>
+  <project name="arduino/TinkerKit"/>
+  <project name="arduino/toolchain-avr"/>
+  <project name="arduino/usbSearch"/>
+  <project name="arduino/wifishield"/>
+  <project name="arduino/YunBridge"/>
+  <project name="arduino/YunWebUI"/>
+</manifest>

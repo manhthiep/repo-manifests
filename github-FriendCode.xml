@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="FriendCode/ace"/>
+  <project name="FriendCode/ace-builds"/>
+  <project name="FriendCode/bugs.js"/>
+  <project name="FriendCode/cakephp-php-sample"/>
+  <project name="FriendCode/codebox"/>
+  <project name="FriendCode/codebox-addon-chat"/>
+  <project name="FriendCode/codebox-addon-doks"/>
+  <project name="FriendCode/codebox-addon-helloworld"/>
+  <project name="FriendCode/codebox-addon-stackoverflow"/>
+  <project name="FriendCode/codebox-addon-videochat"/>
+  <project name="FriendCode/codebox-chrome"/>
+  <project name="FriendCode/codebox-client"/>
+  <project name="FriendCode/codebox-desktop"/>
+  <project name="FriendCode/codebox-docs" revision="gh-pages"/>
+  <project name="FriendCode/doks"/>
+  <project name="FriendCode/doks-server"/>
+  <project name="FriendCode/emachine"/>
+  <project name="FriendCode/engineer"/>
+  <project name="FriendCode/facebook-nodejs-sample"/>
+  <project name="FriendCode/friendcode.github.io"/>
+  <project name="FriendCode/fs.notify"/>
+  <project name="FriendCode/funky"/>
+  <project name="FriendCode/gitrap"/>
+  <project name="FriendCode/gittle"/>
+  <project name="FriendCode/gittle.js"/>
+  <project name="FriendCode/giturlparse.py"/>
+  <project name="FriendCode/googlee"/>
+  <project name="FriendCode/heroku-buildpack-static"/>
+  <project name="FriendCode/html5-sample"/>
+  <project name="FriendCode/java-spring-sample"/>
+  <project name="FriendCode/loadfire"/>
+  <project name="FriendCode/markdownpreviewer"/>
+  <project name="FriendCode/mimer"/>
+  <project name="FriendCode/node-ctags"/>
+  <project name="FriendCode/node-http-proxy"/>
+  <project name="FriendCode/nodejs-sample"/>
+  <project name="FriendCode/notyfire"/>
+  <project name="FriendCode/openshift.py"/>
+  <project name="FriendCode/php-sample"/>
+  <project name="FriendCode/plugin-sample"/>
+  <project name="FriendCode/python-django-sample"/>
+  <project name="FriendCode/python-flask-sample"/>
+  <project name="FriendCode/qpatch"/>
+  <project name="FriendCode/qplus"/>
+  <project name="FriendCode/ruby-sinatra-sample"/>
+  <project name="FriendCode/sh.js"/>
+  <project name="FriendCode/twitter-python-sample"/>
+  <project name="FriendCode/vfs-local"/>
+  <project name="FriendCode/watchr"/>
+  <project name="FriendCode/zombie"/>
+  <project name="FriendCode/zombie-build"/>
+</manifest>

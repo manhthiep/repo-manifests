@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="ros-visualization/echo_tree"/>
+  <project name="ros-visualization/executive_smach_visualization" revision="indigo-devel"/>
+  <project name="ros-visualization/interactive_markers" revision="indigo-devel"/>
+  <project name="ros-visualization/interactive_marker_proxy" revision="groovy-devel"/>
+  <project name="ros-visualization/interactive_marker_twist_server" revision="indigo-devel"/>
+  <project name="ros-visualization/oculus_rviz_plugins" revision="groovy-devel"/>
+  <project name="ros-visualization/oculus_sdk" revision="groovy-devel"/>
+  <project name="ros-visualization/puppet"/>
+  <project name="ros-visualization/python_qt_binding" revision="groovy-devel"/>
+  <project name="ros-visualization/qt_gui_core" revision="groovy-devel"/>
+  <project name="ros-visualization/robhum_ui_utils"/>
+  <project name="ros-visualization/rqt" revision="groovy-devel"/>
+  <project name="ros-visualization/rqt_common_plugins" revision="groovy-devel"/>
+  <project name="ros-visualization/rqt_pr2_dashboard" revision="hydro-devel"/>
+  <project name="ros-visualization/rqt_robot_plugins" revision="groovy-devel"/>
+  <project name="ros-visualization/rviz" revision="indigo-devel"/>
+  <project name="ros-visualization/rviz_animated_view_controller" revision="hydro-devel"/>
+  <project name="ros-visualization/rviz_fixed_view_controller" revision="indigo-devel"/>
+  <project name="ros-visualization/rviz_view_controllers"/>
+  <project name="ros-visualization/rx" revision="groovy-devel"/>
+  <project name="ros-visualization/speakeasy"/>
+  <project name="ros-visualization/turtlebot_dashboard" revision="groovy-devel"/>
+  <project name="ros-visualization/view_controller_msgs" revision="hydro-devel"/>
+  <project name="ros-visualization/visualization" revision="groovy-devel"/>
+  <project name="ros-visualization/visualization_tutorials" revision="indigo-devel"/>
+</manifest>

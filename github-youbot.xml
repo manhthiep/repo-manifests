@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="youbot/youbot-ros-pkg"/>
+  <project name="youbot/youbot_applications"/>
+  <project name="youbot/youbot_description" revision="hydro-devel"/>
+  <project name="youbot/youbot_diagnostics" revision="hydro-devel"/>
+  <project name="youbot/youbot_driver"/>
+  <project name="youbot/youbot_driver_ros_interface" revision="hydro-devel"/>
+  <project name="youbot/youbot_navigation" revision="hydro-devel"/>
+  <project name="youbot/youbot_simulation" revision="hydro-devel"/>
+</manifest>

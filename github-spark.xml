@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="spark/2014-makerfaire-twittertorch"/>
+  <project name="spark/android-app"/>
+  <project name="spark/bento"/>
+  <project name="spark/blog"/>
+  <project name="spark/bootloader"/>
+  <project name="spark/cc3000-patch-programmer"/>
+  <project name="spark/chef-hostname"/>
+  <project name="spark/clearance"/>
+  <project name="spark/core"/>
+  <project name="spark/core-common-lib"/>
+  <project name="spark/core-communication-lib"/>
+  <project name="spark/core-firmware"/>
+  <project name="spark/custom-shields"/>
+  <project name="spark/docs"/>
+  <project name="spark/eagle-libraries"/>
+  <project name="spark/examples"/>
+  <project name="spark/ios-app"/>
+  <project name="spark/local-communication-example"/>
+  <project name="spark/logo-turtle"/>
+  <project name="spark/neopixel"/>
+  <project name="spark/one-wire"/>
+  <project name="spark/pebble-ballista"/>
+  <project name="spark/pebbleandspark"/>
+  <project name="spark/rc-car-ios"/>
+  <project name="spark/rc-car-twitter"/>
+  <project name="spark/shields"/>
+  <project name="spark/socket"/>
+  <project name="spark/spark-cli"/>
+  <project name="spark/spark-lib-adxl345"/>
+  <project name="spark/spark-protocol"/>
+  <project name="spark/spark-server"/>
+  <project name="spark/spark.github.io"/>
+  <project name="spark/thermostat"/>
+  <project name="spark/twitter-magnet"/>
+  <project name="spark/uber-library-example"/>
+</manifest>

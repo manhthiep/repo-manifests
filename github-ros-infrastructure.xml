@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="ros-infrastructure/answers.ros.org"/>
+  <project name="ros-infrastructure/artwork"/>
+  <project name="ros-infrastructure/bloom"/>
+  <project name="ros-infrastructure/buildfarm"/>
+  <project name="ros-infrastructure/catkin-sphinx"/>
+  <project name="ros-infrastructure/catkinize"/>
+  <project name="ros-infrastructure/catkin_basic"/>
+  <project name="ros-infrastructure/catkin_pkg"/>
+  <project name="ros-infrastructure/dry_prerelease_job_generator"/>
+  <project name="ros-infrastructure/jenkins_scripts"/>
+  <project name="ros-infrastructure/jenkins_tools"/>
+  <project name="ros-infrastructure/mirror"/>
+  <project name="ros-infrastructure/planet.ros.org"/>
+  <project name="ros-infrastructure/prerelease_website"/>
+  <project name="ros-infrastructure/rep"/>
+  <project name="ros-infrastructure/reprepro-updater"/>
+  <project name="ros-infrastructure/ros.org_scripts"/>
+  <project name="ros-infrastructure/rosbrowse"/>
+  <project name="ros-infrastructure/rosdep"/>
+  <project name="ros-infrastructure/rosdistro"/>
+  <project name="ros-infrastructure/rosdoc_lite"/>
+  <project name="ros-infrastructure/rosdoc_tag_index"/>
+  <project name="ros-infrastructure/rosinstall_generator"/>
+  <project name="ros-infrastructure/rospkg"/>
+  <project name="ros-infrastructure/rosrelease-legacy"/>
+  <project name="ros-infrastructure/roswiki"/>
+  <project name="ros-infrastructure/roswiki_vagrant"/>
+  <project name="ros-infrastructure/ros_release_python"/>
+</manifest>

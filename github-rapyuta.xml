@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="rapyuta/autobahn_rce"/>
+  <project name="rapyuta/libav_image_transport"/>
+  <project name="rapyuta/rapyuta-config-re-final"/>
+  <project name="rapyuta/rapyuta-kinfu"/>
+  <project name="rapyuta/rapyuta-mapping"/>
+  <project name="rapyuta/rce"/>
+  <project name="rapyuta/re_comm_core"/>
+  <project name="rapyuta/roboearthDB"/>
+</manifest>

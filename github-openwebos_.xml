@@ -12,12 +12,10 @@
   <project name="openwebos/core-apps"/>
   <project name="openwebos/cpushareholder-stub"/>
   <project name="openwebos/db8"/>
-  <project name="openwebos/deprecated-build-webos"/>
   <project name="openwebos/fbprogress"/>
   <project name="openwebos/filecache"/>
   <project name="openwebos/foundation-frameworks"/>
   <project name="openwebos/glibcurl"/>
-  <project name="openwebos/image-assets"/>
   <project name="openwebos/jemalloc"/>
   <project name="openwebos/keyboard-efigs"/>
   <project name="openwebos/libpalmsocket"/>

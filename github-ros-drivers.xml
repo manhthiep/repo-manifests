@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="ros-drivers/audio_common" revision="hydro-devel"/>
+  <project name="ros-drivers/camera1394"/>
+  <project name="ros-drivers/driver_common" revision="indigo-devel"/>
+  <project name="ros-drivers/flir_ptu"/>
+  <project name="ros-drivers/freenect_stack"/>
+  <project name="ros-drivers/gpsd_client"/>
+  <project name="ros-drivers/gscam"/>
+  <project name="ros-drivers/hokuyo_node" revision="indigo-devel"/>
+  <project name="ros-drivers/joystick_drivers" revision="indigo-devel"/>
+  <project name="ros-drivers/joystick_drivers_tutorials"/>
+  <project name="ros-drivers/korg_nanokontrol"/>
+  <project name="ros-drivers/leap_motion"/>
+  <project name="ros-drivers/microstrain_3dmgx2_imu" revision="indigo-devel"/>
+  <project name="ros-drivers/nmea_comms" revision="indigo-devel"/>
+  <project name="ros-drivers/nmea_gps_driver" revision="hydro-devel"/>
+  <project name="ros-drivers/nmea_msgs" revision="indigo-devel"/>
+  <project name="ros-drivers/nmea_navsat_driver" revision="indigo-devel"/>
+  <project name="ros-drivers/openni2_camera" revision="indigo-devel"/>
+  <project name="ros-drivers/openni2_launch" revision="indigo-devel"/>
+  <project name="ros-drivers/openni2_tracker" revision="hydro-devel"/>
+  <project name="ros-drivers/openni_camera" revision="hydro-devel"/>
+  <project name="ros-drivers/openni_launch" revision="hydro-devel"/>
+  <project name="ros-drivers/openni_tracker" revision="hydro-devel"/>
+  <project name="ros-drivers/pointgrey_camera_driver"/>
+  <project name="ros-drivers/prosilica_driver" revision="hydro-devel"/>
+  <project name="ros-drivers/prosilica_gige_sdk"/>
+  <project name="ros-drivers/razer_hydra" revision="indigo-devel"/>
+  <project name="ros-drivers/rgbd_launch" revision="indigo-devel"/>
+  <project name="ros-drivers/rosserial" revision="indigo-devel"/>
+  <project name="ros-drivers/rosserial-experimental"/>
+  <project name="ros-drivers/sicktoolbox" revision="catkin"/>
+  <project name="ros-drivers/sicktoolbox_wrapper" revision="indigo-devel"/>
+  <project name="ros-drivers/um6" revision="indigo-devel"/>
+  <project name="ros-drivers/urg_c"/>
+  <project name="ros-drivers/urg_node" revision="indigo-devel"/>
+  <project name="ros-drivers/velodyne"/>
+  <project name="ros-drivers/wge100_driver" revision="hydro-devel"/>
+  <project name="ros-drivers/wifi_ddwrt" revision="hydro-devel"/>
+</manifest>

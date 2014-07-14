@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="raspberrypi/documentation"/>
+  <project name="raspberrypi/firmware"/>
+  <project name="raspberrypi/linux" revision="rpi-3.12.y"/>
+  <project name="raspberrypi/maynard"/>
+  <project name="raspberrypi/noobs"/>
+  <project name="raspberrypi/quake3"/>
+  <project name="raspberrypi/scratch"/>
+  <project name="raspberrypi/target_fs"/>
+  <project name="raspberrypi/tools"/>
+  <project name="raspberrypi/userland"/>
+  <project name="raspberrypi/weston" revision="rpi-1.4.0"/>
+</manifest>

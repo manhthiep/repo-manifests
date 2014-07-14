@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="rosjava/android_apps" revision="readme"/>
+  <project name="rosjava/android_core" revision="readme"/>
+  <project name="rosjava/android_extras" revision="readme"/>
+  <project name="rosjava/android_remocons" revision="readme"/>
+  <project name="rosjava/rosjava" revision="readme"/>
+  <project name="rosjava/rosjava_bootstrap" revision="readme"/>
+  <project name="rosjava/rosjava_build_tools" revision="readme"/>
+  <project name="rosjava/rosjava_core" revision="readme"/>
+  <project name="rosjava/rosjava_extras" revision="readme"/>
+  <project name="rosjava/rosjava_messages" revision="readme"/>
+  <project name="rosjava/rosjava_mvn_repo"/>
+  <project name="rosjava/tf2_android" revision="readme"/>
+  <project name="rosjava/zeroconf_jmdns_suite" revision="readme"/>
+</manifest>

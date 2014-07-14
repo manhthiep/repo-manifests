@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="koush/.idea"/>
+  <project name="koush/android" revision="donut"/>
+  <project name="koush/android-support"/>
+  <project name="koush/android-support-v7-appcompat"/>
+  <project name="koush/android-support-v7-mediarouter"/>
+  <project name="koush/android-websockets"/>
+  <project name="koush/AndroidAsync"/>
+  <project name="koush/androidmono"/>
+  <project name="koush/AndroidNetworkBench"/>
+  <project name="koush/android_bionic" revision="donut"/>
+  <project name="koush/android_build" revision="donut"/>
+  <project name="koush/android_device_asus_tf201" revision="ics"/>
+  <project name="koush/android_device_dell_streak7"/>
+  <project name="koush/android_device_elocity_a7"/>
+  <project name="koush/android_device_endeavoru" revision="ics"/>
+  <project name="koush/android_device_generic" revision="froyo"/>
+  <project name="koush/android_device_htc_ace" revision="gingerbread"/>
+  <project name="koush/android_device_htc_inc" revision="froyo"/>
+  <project name="koush/android_device_kyocera_m6000"/>
+  <project name="koush/android_device_motorola_backflip"/>
+  <project name="koush/android_device_motorola_sholes" revision="froyo"/>
+  <project name="koush/android_device_motorola_targa" revision="gingerbread"/>
+  <project name="koush/android_device_samsung_epic4g"/>
+  <project name="koush/android_device_samsung_galaxy5" revision="gingerbread"/>
+  <project name="koush/android_external_busybox"/>
+  <project name="koush/android_external_yaffs2" revision="froyo"/>
+  <project name="koush/android_frameworks_base" revision="eclair"/>
+  <project name="koush/android_packages_apps_Launcher2" revision="eclair"/>
+  <project name="koush/android_packages_apps_Superuser" revision="donut"/>
+  <project name="koush/android_packages_wallpapers_Basic" revision="eclair"/>
+  <project name="koush/android_system_core" revision="eclair"/>
+  <project name="koush/android_vendor_acer_salsa"/>
+  <project name="koush/android_vendor_cyanogen"/>
+  <project name="koush/android_vendor_dell_streak"/>
+  <project name="koush/android_vendor_google_passion" revision="eclair"/>
+  <project name="koush/android_vendor_htc_bravo"/>
+  <project name="koush/android_vendor_htc_bravoc"/>
+  <project name="koush/android_vendor_htc_buzz"/>
+  <project name="koush/android_vendor_htc_desirec"/>
+  <project name="koush/android_vendor_htc_espresso"/>
+  <project name="koush/android_vendor_htc_hero" revision="eclair"/>
+  <project name="koush/android_vendor_htc_heroc" revision="eclair"/>
+  <project name="koush/android_vendor_htc_inc"/>
+  <project name="koush/android_vendor_htc_legend"/>
+  <project name="koush/android_vendor_htc_liberty"/>
+  <project name="koush/android_vendor_htc_m7" revision="cm-10.1"/>
+  <project name="koush/android_vendor_htc_magic" revision="eclair"/>
+  <project name="koush/android_vendor_htc_supersonic"/>
+  <project name="koush/android_vendor_htc_tattoo"/>
+  <project name="koush/android_vendor_huawei_pulse"/>
+  <project name="koush/android_vendor_huawei_pulsemini"/>
+  <project name="koush/android_vendor_lg_aloha"/>
+  <project name="koush/android_vendor_motorola_droid2"/>
+  <project name="koush/android_vendor_motorola_droidx"/>
+  <project name="koush/android_vendor_motorola_sholes"/>
+  <project name="koush/android_vendor_samsung_epic"/>
+  <project name="koush/android_vendor_samsung_fascinate"/>
+  <project name="koush/android_vendor_samsung_galaxys"/>
+  <project name="koush/AnyKernel"/>
+  <project name="koush/aokpmanifest"/>
+  <project name="koush/appengine-mapreduce"/>
+  <project name="koush/AsyncTask"/>
+  <project name="koush/ATI6000Controller.kext"/>
+  <project name="koush/babel"/>
+  <project name="koush/BionicBootstrap"/>
+  <project name="koush/box-android-sdk"/>
+  <project name="koush/box-android-sdk-v2"/>
+  <project name="koush/box-java-sdk-v2"/>
+  <project name="koush/Broadway"/>
+  <project name="koush/CarbonMac"/>
+  <project name="koush/CarbonResources"/>
+  <project name="koush/cast-custom-receiver"/>
+  <project name="koush/Cast-Media-Player-Library-Sample"/>
+  <project name="koush/CastAPI"/>
+  <project name="koush/CastResources"/>
+  <project name="koush/CastSite" revision="gh-pages"/>
+  <project name="koush/CESetupDLLTemplate"/>
+  <project name="koush/Chromecast"/>
+  <project name="koush/Clear"/>
+  <project name="koush/cling"/>
+  <project name="koush/clockworkbilling-java"/>
+  <project name="koush/ClockworkModLauncher"/>
+  <project name="koush/commander.js"/>
+  <project name="koush/csharp-sqlite"/>
+  <project name="koush/CWM-3.0.2.5-Kernel" revision="test"/>
+  <project name="koush/dblinq"/>
+  <project name="koush/DiskLruCache"/>
+  <project name="koush/dogs"/>
+  <project name="koush/Droid2Bootstrap"/>
+  <project name="koush/Droid3Bootstrap"/>
+  <project name="koush/DroidXBootstrap"/>
+  <project name="koush/EFI" revision="mavericks"/>
+  <project name="koush/Epic4GBootstrap"/>
+  <project name="koush/epic4gtouch_initramfs_files"/>
+  <project name="koush/epic_initramfs"/>
+  <project name="koush/EulerErlang"/>
+  <project name="koush/express"/>
+  <project name="koush/Extra"/>
+  <project name="koush/fascinate_initramfs"/>
+  <project name="koush/Firefly"/>
+  <project name="koush/FireflyRepo"/>
+  <project name="koush/galaxy-initramfs" revision="tmobile"/>
+  <project name="koush/galaxys-initramfs"/>
+  <project name="koush/galaxytab-tmobile-kernel"/>
+  <project name="koush/git"/>
+  <project name="koush/GithubProjects"/>
+  <project name="koush/google-play-services_lib"/>
+  <project name="koush/GoogleDrive"/>
+  <project name="koush/GoogleVoice"/>
+  <project name="koush/GoogleVoiceRepo"/>
+  <project name="koush/GoogleVoiceService"/>
+  <project name="koush/gradle-mvn-push"/>
+  <project name="koush/hashlib"/>
+  <project name="koush/InternationalTabBootstrap"/>
+  <project name="koush/IOAHCIBlockStorage.kext"/>
+  <project name="koush/ion"/>
+  <project name="koush/ion-test-server"/>
+  <project name="koush/IONetworkingFamily.kext"/>
+  <project name="koush/jade"/>
+  <project name="koush/jenkinsmanifest"/>
+  <project name="koush/jni4net.n"/>
+  <project name="koush/json-net"/>
+  <project name="koush/jsonp"/>
+  <project name="koush/KenKen"/>
+  <project name="koush/Klaxon"/>
+  <project name="koush/koush"/>
+  <project name="koush/koush.com"/>
+  <project name="koush/koush.github.com"/>
+  <project name="koush/legacy_vendor_koush" revision="eclair"/>
+  <project name="koush/Loggy"/>
+  <project name="koush/logpush"/>
+  <project name="koush/m2repository"/>
+  <project name="koush/manos"/>
+  <project name="koush/ManosSmoothie"/>
+  <project name="koush/MediaRouterSample"/>
+  <project name="koush/misc"/>
+  <project name="koush/mono"/>
+  <project name="koush/monodevelop"/>
+  <project name="koush/mvn-repo"/>
+  <project name="koush/nexusone-open"/>
+  <project name="koush/node" revision="async-v0.11.x"/>
+  <project name="koush/node-prox"/>
+  <project name="koush/Node.js---Amazon-S3"/>
+  <project name="koush/nothingtoseeheremovealong" revision="ics"/>
+  <project name="koush/nto.github.com"/>
+  <project name="koush/OpenGLES"/>
+  <project name="koush/OpenGLESTest"/>
+  <project name="koush/otaxdelta3"/>
+  <project name="koush/positron"/>
+  <project name="koush/proprietary_vendor_google" revision="gh-pages"/>
+  <project name="koush/proprietary_vendor_nvidia" revision="gingerbread"/>
+  <project name="koush/PushSms"/>
+  <project name="koush/pyjade"/>
+  <project name="koush/retrofit"/>
+  <project name="koush/ROMManagerAssets"/>
+  <project name="koush/ROMManagerBBQ"/>
+  <project name="koush/ROMManagerManifest" revision="gh-pages"/>
+  <project name="koush/rpc"/>
+  <project name="koush/sapphire-open"/>
+  <project name="koush/Screenshot"/>
+  <project name="koush/SensoryOverload"/>
+  <project name="koush/ShowcaseView"/>
+  <project name="koush/shrinkimage"/>
+  <project name="koush/Specs"/>
+  <project name="koush/sqlite-net"/>
+  <project name="koush/Superuser"/>
+  <project name="koush/support-wiki"/>
+  <project name="koush/SyntaxHighlighter" revision="gh-pages"/>
+  <project name="koush/TestRomManager"/>
+  <project name="koush/theme_mau5_prash"/>
+  <project name="koush/TiledMaps"/>
+  <project name="koush/TiledMapsTest"/>
+  <project name="koush/TimeMachine"/>
+  <project name="koush/toro"/>
+  <project name="koush/Twilight_Zone_Kernel"/>
+  <project name="koush/ub-conscrypt-manifest"/>
+  <project name="koush/UniversalAdbDriver"/>
+  <project name="koush/UrlImageViewHelper"/>
+  <project name="koush/VerizonTabBootstrap"/>
+  <project name="koush/WeatherIcons"/>
+  <project name="koush/WhilWheatonPermissionFixer"/>
+  <project name="koush/Widgets"/>
+  <project name="koush/WindowlessControls"/>
+  <project name="koush/WindowlessControlsTutorial"/>
+  <project name="koush/workspace"/>
+  <project name="koush/Xaml"/>
+  <project name="koush/xsp"/>
+</manifest>

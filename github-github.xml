@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="github/albino"/>
+  <project name="github/android"/>
+  <project name="github/Archimedes"/>
+  <project name="github/aroma"/>
+  <project name="github/aws-s3"/>
+  <project name="github/backstop"/>
+  <project name="github/banana_phone"/>
+  <project name="github/brakeman" revision="github"/>
+  <project name="github/buildstep"/>
+  <project name="github/Butter"/>
+  <project name="github/choosealicense.com" revision="gh-pages"/>
+  <project name="github/cocoaoniguruma"/>
+  <project name="github/d3" revision="github-build"/>
+  <project name="github/dat-analysis"/>
+  <project name="github/dat-science"/>
+  <project name="github/develop.github.com"/>
+  <project name="github/developer.github.com"/>
+  <project name="github/django-floppyforms"/>
+  <project name="github/dmca"/>
+  <project name="github/email_reply_parser"/>
+  <project name="github/enterprise-ohai"/>
+  <project name="github/ernicorn"/>
+  <project name="github/evenflow"/>
+  <project name="github/expecta"/>
+  <project name="github/faceup"/>
+  <project name="github/fog"/>
+  <project name="github/foreman"/>
+  <project name="github/game-o"/>
+  <project name="github/game-off-2012"/>
+  <project name="github/game-off-2013"/>
+  <project name="github/garethr-docker"/>
+  <project name="github/gem-builder"/>
+  <project name="github/gemoji"/>
+  <project name="github/GHKeyBrowser"/>
+  <project name="github/ghterm"/>
+  <project name="github/git-msysgit"/>
+  <project name="github/gitcasts" revision="gh-pages"/>
+  <project name="github/github-ldap"/>
+  <project name="github/github-services"/>
+  <project name="github/gitignore"/>
+  <project name="github/GitPad"/>
+  <project name="github/gitscm-old"/>
+  <project name="github/go-opstocat"/>
+  <project name="github/go.grace"/>
+  <project name="github/gollum" revision="github"/>
+  <project name="github/government.github.com" revision="gh-pages"/>
+  <project name="github/grit"/>
+  <project name="github/houdini"/>
+  <project name="github/hr-opensource"/>
+  <project name="github/html-pipeline"/>
+  <project name="github/htttee"/>
+  <project name="github/hub"/>
+  <project name="github/hubahuba"/>
+  <project name="github/hubot"/>
+  <project name="github/hubot-scripts"/>
+  <project name="github/INAppStoreWindow"/>
+  <project name="github/janky"/>
+  <project name="github/JNWCollectionView"/>
+  <project name="github/jquery"/>
+  <project name="github/jquery-hotkeys"/>
+  <project name="github/jquery-relatize_date"/>
+  <project name="github/JSONKit"/>
+  <project name="github/learn.github.com" revision="gh-pages"/>
+  <project name="github/ledbetter"/>
+  <project name="github/linguist"/>
+  <project name="github/litterbox"/>
+  <project name="github/marginalia"/>
+  <project name="github/markup"/>
+  <project name="github/MASPreferences"/>
+  <project name="github/maven-plugins"/>
+  <project name="github/media"/>
+  <project name="github/mime-types"/>
+  <project name="github/msysgit" revision="devel"/>
+  <project name="github/nagios-plugins-github"/>
+  <project name="github/node-statsd"/>
+  <project name="github/nugget"/>
+  <project name="github/objective-c-style-guide"/>
+  <project name="github/ocmock"/>
+  <project name="github/octicons"/>
+  <project name="github/OHHTTPStubs"/>
+  <project name="github/omniauth" revision="0-3-stable"/>
+  <project name="github/omniauth-saml"/>
+  <project name="github/pagerduty-incident-webhooks"/>
+  <project name="github/pages-gem"/>
+  <project name="github/platform-samples"/>
+  <project name="github/platform-sandbox"/>
+  <project name="github/play"/>
+  <project name="github/pong"/>
+  <project name="github/puppet-aptmirror"/>
+  <project name="github/puppet-sysfs"/>
+  <project name="github/puppetlabs-puppet" revision="2.7.x-github"/>
+  <project name="github/puppetlabs-puppetdb" revision="1.1.x-github"/>
+  <project name="github/pycon2011"/>
+  <project name="github/rack-ssl-enforcer"/>
+  <project name="github/rack-statsd"/>
+  <project name="github/rails" revision="2-3-github"/>
+  <project name="github/rbenv-autohash"/>
+  <project name="github/Rebel"/>
+  <project name="github/RepoRepairTool"/>
+  <project name="github/request_timer"/>
+  <project name="github/resque" revision="github"/>
+  <project name="github/RMErrorRecoveryAttempter"/>
+  <project name="github/rollout"/>
+  <project name="github/ruby" revision="2.1"/>
+  <project name="github/ruby-thecodeshop" revision="github-p231"/>
+  <project name="github/safegem"/>
+  <project name="github/serialized_attributes"/>
+  <project name="github/SharpDevelop"/>
+  <project name="github/specta"/>
+  <project name="github/ssziparchive"/>
+  <project name="github/statsd-ruby"/>
+  <project name="github/STUtils"/>
+  <project name="github/support-force-push"/>
+  <project name="github/swift-style-guide"/>
+  <project name="github/swordfish"/>
+  <project name="github/tainted_hash"/>
+  <project name="github/taps"/>
+  <project name="github/teach.github.com" revision="gh-pages"/>
+  <project name="github/testrepo"/>
+  <project name="github/training-kit"/>
+  <project name="github/training.github.com" revision="gh-pages"/>
+  <project name="github/twui"/>
+  <project name="github/uiimage-from-animated-gif"/>
+  <project name="github/upload"/>
+  <project name="github/url2png-gem"/>
+  <project name="github/veewee"/>
+  <project name="github/will_paginate_with_hotkeys"/>
+  <project name="github/windows-msysgit"/>
+  <project name="github/yard-sinatra"/>
+</manifest>

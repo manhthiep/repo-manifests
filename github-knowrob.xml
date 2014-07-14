@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="knowrob/action_alignment"/>
+  <project name="knowrob/cogwatch"/>
+  <project name="knowrob/data_labeling_tool"/>
+  <project name="knowrob/docker"/>
+  <project name="knowrob/knowrob"/>
+  <project name="knowrob/knowrob_addons"/>
+  <project name="knowrob/knowrob_data"/>
+  <project name="knowrob/knowrob_gui"/>
+  <project name="knowrob/knowrob_human"/>
+  <project name="knowrob/knowrob_tutorials"/>
+  <project name="knowrob/ros3djs" revision="devel"/>
+  <project name="knowrob/rosdistro"/>
+  <project name="knowrob/rosjava_jni"/>
+  <project name="knowrob/uima_prolog"/>
+</manifest>

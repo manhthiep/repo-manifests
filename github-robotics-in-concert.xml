@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="robotics-in-concert/android_core" revision="hydro"/>
+  <project name="robotics-in-concert/android_remocons" revision="readme"/>
+  <project name="robotics-in-concert/capabilities"/>
+  <project name="robotics-in-concert/concert_scheduling"/>
+  <project name="robotics-in-concert/concert_services" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_android_apps" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_app_platform" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_cento"/>
+  <project name="robotics-in-concert/rocon_concert" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_demos" revision="cafe_concert"/>
+  <project name="robotics-in-concert/rocon_demo_msgs" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_devices" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_ensemble" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_motion_pipeline"/>
+  <project name="robotics-in-concert/rocon_msgs" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_multimaster" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_qt_gui" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_rapps" revision="indigo"/>
+  <project name="robotics-in-concert/rocon_rosjava_core" revision="indigo"/>
+  <project name="robotics-in-concert/rocon_rosjava_msgs" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_rqt_plugins" revision="hydro"/>
+  <project name="robotics-in-concert/rocon_scheduler_requests" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_solution_webmanager"/>
+  <project name="robotics-in-concert/rocon_storytelling" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_tools" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rocon_tutorials" revision="hydro-devel"/>
+  <project name="robotics-in-concert/rqt_capabilities"/>
+  <project name="robotics-in-concert/std_capabilities" revision="initial_specs"/>
+</manifest>

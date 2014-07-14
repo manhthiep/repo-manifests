@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="adobe/adobe.github.com"/>
+  <project name="adobe/angle"/>
+  <project name="adobe/angle.js"/>
+  <project name="adobe/brackets"/>
+  <project name="adobe/brackets-app"/>
+  <project name="adobe/brackets-edge-web-fonts"/>
+  <project name="adobe/brackets-phonegap"/>
+  <project name="adobe/brackets-phonegap-prototype"/>
+  <project name="adobe/brackets-plugin-exclusions"/>
+  <project name="adobe/brackets-registry"/>
+  <project name="adobe/brackets-shell"/>
+  <project name="adobe/brackets-updates"/>
+  <project name="adobe/brackets.io" revision="gh-pages"/>
+  <project name="adobe/chromium"/>
+  <project name="adobe/CodeMirror2"/>
+  <project name="adobe/css-pseudo-elements"/>
+  <project name="adobe/cssfilterlab"/>
+  <project name="adobe/dds2atf"/>
+  <project name="adobe/edge-hub"/>
+  <project name="adobe/flash-platform"/>
+  <project name="adobe/GLS3D"/>
+  <project name="adobe/glsl2agal"/>
+  <project name="adobe/graphicalweb-keynote"/>
+  <project name="adobe/incubator-cordova-weinre"/>
+  <project name="adobe/iphone-filter-demo"/>
+  <project name="adobe/skia" revision="may2012-f2f-prototype"/>
+  <project name="adobe/source-code-pro"/>
+  <project name="adobe/source-sans-pro"/>
+  <project name="adobe/source-serif-pro"/>
+  <project name="adobe/Spry"/>
+  <project name="adobe/telemetry-utils"/>
+  <project name="adobe/web-platform"/>
+  <project name="adobe/webkit"/>
+</manifest>

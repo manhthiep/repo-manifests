@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="Homebrew/homebrew"/>
+  <project name="Homebrew/homebrew-apache"/>
+  <project name="Homebrew/homebrew-binary"/>
+  <project name="Homebrew/homebrew-boneyard"/>
+  <project name="Homebrew/homebrew-completions"/>
+  <project name="Homebrew/homebrew-contrib"/>
+  <project name="Homebrew/homebrew-dupes"/>
+  <project name="Homebrew/homebrew-games"/>
+  <project name="Homebrew/homebrew-headonly"/>
+  <project name="Homebrew/homebrew-nginx"/>
+  <project name="Homebrew/homebrew-php"/>
+  <project name="Homebrew/homebrew-python"/>
+  <project name="Homebrew/homebrew-science"/>
+  <project name="Homebrew/homebrew-versions"/>
+  <project name="Homebrew/homebrew-x11"/>
+  <project name="Homebrew/homebrew.github.io"/>
+  <project name="Homebrew/linuxbrew"/>
+</manifest>

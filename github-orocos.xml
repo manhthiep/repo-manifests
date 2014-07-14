@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github"/>
+  <default remote="github" revision="master" sync-j="4"/>
+  <project name="orocos/orocos_kinematics_dynamics"/>
+  <project name="orocos/rFSM"/>
+  <project name="orocos/rtt_common_msgs" revision="groovy-devel"/>
+  <project name="orocos/rtt_gazebo"/>
+  <project name="orocos/rtt_geometry" revision="hydro-devel"/>
+  <project name="orocos/rtt_ros_comm" revision="groovy-devel"/>
+  <project name="orocos/rtt_ros_integration" revision="hydro-devel"/>
+  <project name="orocos/rtt_soem"/>
+</manifest>
