@@ -1,21 +1,21 @@
 repo-manifests
 ==============
 
-Manifests for repo tool, also works with pygit.py
+Manifests for repo tool, also works with gittig
 
-* With repo:
+* Using **repo**:
   <pre>
   repo init -u https://github.com/manhthiep/repo-manifests.git -m MANIFEST_FILE
   repo sync
   </pre>
   
-* With pygit.py
+* Using **gittig**
   * Clone
     <pre>
     git clone https://github.com/manhthiep/repo-manifests.git
-    pygit.py clone [--mirror] --manifest=repo-manifests/MANIFEST_FILE
+    gittig clone [--mirror] --manifest=repo-manifests/MANIFEST_FILE
     </pre>
   * Sync
     <pre>
-    pygit.py sync [--mirror] [--manifest=repo-manifests/MANIFEST_FILE]
+    gittig sync [--mirror] [--manifest=repo-manifests/MANIFEST_FILE]
     </pre>
